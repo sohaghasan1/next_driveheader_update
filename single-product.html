@@ -1,0 +1,1334 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Next Drive</title>
+    <!-- fonts  -->
+     <link rel="stylesheet" href="assets/fonts/stylesheet.css">
+     <link rel="stylesheet" href="assets/fonts/signpainter/stylesheet.css">
+
+     <!-- jquery ui css -->
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+     <!-- Select2 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+     <!-- bootstrap css  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- owl carousel css  -->
+     <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+     <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
+    <!-- custom css  -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/media.css">
+  </head>
+  <body>
+
+    <!-- header section  -->
+    <header>
+        <div class="top_bar">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <ul>
+                            <li>
+                                <img src="assets/img/calender.png" class="img-fluid" alt="">
+                                April 25, 22.25 (JST)
+                            </li>
+                            <li>
+                                <img src="assets/img/piechart.png" class="img-fluid" alt="">
+                                TTB 1USD= 137.96 Yen
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main_bar">
+            <div class="container-fluid">
+                   <div class="row"> 
+                    <!-- desktop header  -->
+                    <nav class="navbar navbar-expand-md header_mobile_none">
+                        <div class="container-fluid">
+                            <a class="navbar-brand" href="#"><img src="assets/img/next-drive.png" class="img-fluid" alt=""></a>
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                <li class="nav-item">
+                                <a class="nav-link" href="#">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                <a class="nav-link" href="#">About Us</a>
+                                </li>
+                                 <li class="nav-item">
+                                <a class="nav-link" href="#">Blog</a>
+                                </li>
+                                  <li class="nav-item">
+                                <a class="nav-link" href="#">FAQ</a>
+                                </li>
+                                  <li class="nav-item">
+                                <a class="nav-link" href="#">Contact</a>
+                                </li>
+                            </ul>
+                            <div class="right_nav_items">
+                                <ul>
+                                    <li>
+                                        <a href="" class="img-fluid"><img src="assets/img/Whats app.png" alt=""></a>
+                                    </li>
+                                    <li class="currency">
+                                        <p>Currency: </p>
+                                        <select name="" id="">
+                                            <option value="">USD</option>
+                                            <option value="">USD</option>
+                                        </select>
+                                    </li>
+                                    <li>
+                                        <a href=""><img src="assets/img/user-icon.png" class="img-fluid" alt=""></a>
+                                    </li>
+                                </ul>
+                            </div>
+                            </div>
+                        </div>
+                    </nav>
+                    <!-- desktop header  -->
+
+                    <!-- Mobile header  -->
+                     <nav class="navbar mobile_nav header_desktop_none">
+                        <div class="container-fluid">
+                            <a class="navbar-brand" href="#"><img src="assets/img/next-drive.png" class="img-fluid" alt=""></a>
+
+                            <div class="right_nav_items ms-auto">
+                                <ul>
+                                    <li>
+                                        <a href="" class="img-fluid"><img src="assets/img/Whats app.png" alt=""></a>
+                                    </li>
+                                    <li class="currency">
+                                        <p>Currency: </p>
+                                        <select name="" id="">
+                                            <option value="">USD</option>
+                                            <option value="">USD</option>
+                                        </select>
+                                    </li>
+                                </ul>
+                            </div>
+
+                                                        <!-- offcanvas menu  -->
+                            <button class="navbar-toggler dropdown-toggle" type="button" data-bs-toggle="offcanvas" data-bs-target="#staticBackdrop" aria-controls="staticBackdrop">
+                            <div class="menu example5"><span></span></div>
+                            </button>
+                            <div class="offcanvas offcanvas-start" data-bs-backdrop="static" tabindex="-1" id="staticBackdrop" aria-labelledby="staticBackdropLabel">
+                                <div class="offcanvas-header justify-content-end">
+                                    <button type="button" class="close" data-bs-dismiss="offcanvas" aria-label="Close"><i class="fa-solid fa-xmark"></i></button>
+                                </div>
+                                <div class="offcanvas-body">
+                                    <div>
+                                        <ul class="navbar-nav  mb-2 mb-lg-0">
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">Home</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">About Us</a>
+                                            </li>
+                                        
+                                            <li class="nav-item">
+                                                <a class="nav-link" aria-disabled="true">Blog</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" aria-disabled="true">FAQ</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" aria-disabled="true">Contact</a>
+                                            </li>
+                                        </ul>
+
+                                        <ul class="profil_edit">
+                                            <li>
+                                                <a href="">
+                                                    <i class="fa-regular fa-circle-user"></i>
+                                                    Your Profile
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="">
+                                                <i class="fa-solid fa-gear"></i>
+                                                    Seetings
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="">
+                                                    <i class="fa-solid fa-arrow-right-from-bracket"></i>
+                                                    Log out
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </nav>
+                    <!-- Mobile header  -->
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- header section  -->
+
+    <!-- search by keyword section  -->
+
+    <!-- main content section  -->
+
+    <section class="main_content">
+        <div class="container-fluid">
+            <div class="row">
+                <!-- brand list  -->
+                <div class="col-md-3 col-lg-2 desktop_brand_list custom_padding">
+                    <!-- Search By Car  -->
+                    <div class="brand_list ">
+                        <div class="sidebar_title">
+                            <img src="assets/img/car icon.png" alt="">
+                            <span>Search by Car</span>
+                        </div>
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    <div class="brand_logo">
+                                        <img src="assets/img/brand_bmw.webp" class="img-fluid" alt="">
+                                    </div>
+                                    BMW <span>(154)</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <div class="brand_logo">
+                                        <img src="assets/img/brand_bmw.webp" class="img-fluid" alt="">
+                                    </div>
+                                    BMW <span>(154)</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <div class="brand_logo">
+                                        <img src="assets/img/brand_bmw.webp" class="img-fluid" alt="">
+                                    </div>
+                                    BMW <span>(154)</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <div class="brand_logo">
+                                        <img src="assets/img/brand_toyota.png" class="img-fluid" alt="">
+                                    </div>
+                                    TOYOTA <span>(154)</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <div class="brand_logo">
+                                        <img src="assets/img/brand_bmw.webp" class="img-fluid" alt="">
+                                    </div>
+                                    BMW <span>(154)</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <div class="brand_logo">
+                                        <img src="assets/img/brand_bmw.webp" class="img-fluid" alt="">
+                                    </div>
+                                    BMW <span>(154)</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <div class="brand_logo">
+                                        <img src="assets/img/brand_toyota.png" class="img-fluid" alt="">
+                                    </div>
+                                    TOYOTA <span>(154)</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <div class="brand_logo">
+                                        <img src="assets/img/brand_bmw.webp" class="img-fluid" alt="">
+                                    </div>
+                                    BMW <span>(154)</span>
+                                </a>
+                            </li>
+                           
+                            <li>
+                                <a href="#">
+                                    <div class="brand_logo">
+                                        <img src="assets/img/brand_bmw.webp" class="img-fluid" alt="">
+                                    </div>
+                                    BMW <span>(154)</span>
+                                </a>
+                            </li>
+                             <li>
+                                <a href="">
+                                    <div class="brand_logo">
+                                        <img src="assets/img/brand_toyota.png" class="img-fluid" alt="">
+                                    </div>
+                                    TOYOTA <span>(154)</span>
+                                </a>
+                            </li>
+                             <li>
+                                <a href="">
+                                    <div class="brand_logo">
+                                        <img src="assets/img/brand_toyota.png" class="img-fluid" alt="">
+                                    </div>
+                                    TOYOTA <span>(154)</span>
+                                </a>
+                            </li>
+                             <li>
+                                <a href="#">
+                                    <div class="brand_logo">
+                                        <img src="assets/img/brand_bmw.webp" class="img-fluid" alt="">
+                                    </div>
+                                    BMW <span>(154)</span>
+                                </a>
+                            </li>
+                             <li>
+                                <a href="">
+                                    <div class="brand_logo">
+                                        <img src="assets/img/brand_toyota.png" class="img-fluid" alt="">
+                                    </div>
+                                    TOYOTA <span>(154)</span>
+                                </a>
+                            </li>
+                       
+                        </ul>
+                    </div>
+
+                    <!-- shope by popular model  -->
+                    <div class="brand_list popular-model">
+                        <div class="sidebar_title">
+                            <img src="assets/img/Vector2.png" alt="">
+                            <span>Shop By Popular Model</span>
+                        </div>
+                        <ul>
+                            <li>
+                                <a href="#">
+                                   TOYOTA COROLLA FIELDER
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    TOYOTA HIACE VAN
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                   TOYOTA PREMIO
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                  TOYOTA RAV4
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    TOYOTA ALLION
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    TOYOTA AXIO
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    HONDA CRV
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    HONDA FIT
+                                </a>
+                            </li>
+                           
+                            <li>
+                                <a href="#">
+                                    HONDA INSIGHT
+                                </a>
+                            </li>
+                             <li>
+                                <a href="">
+                                    HONDA VEZEL
+                                </a>
+                            </li>
+                             <li>
+                                <a href="">
+                                  NISSAN JUKE
+                                </a>
+                            </li>
+                             <li>
+                                <a href="#">
+                                  NISSAN ELGRAND 
+                                </a>
+                            </li>
+                             <li>
+                                <a href="">
+                                  MAZDA PREMACY
+                                </a>
+                            </li>
+                       
+                        </ul>
+                    </div>
+
+                     <!-- Shop By Price  -->
+                    <div class="brand_list popular-model">
+                        <div class="sidebar_title">
+                            <img src="assets/img/Vector2.png" alt="">
+                            <span>Shop By Popular Model</span>
+                        </div>
+                        <ul>
+                            <li>
+                                <a href="#">
+                                   Under USD 500
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                     Under USD 500
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    Under USD 500
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                   Under USD 3,000
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                     Under USD 4,000
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    Under USD 5,000
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                     Over USD 5,000
+                                </a>
+                            </li>
+                       
+                        </ul>
+                    </div>
+
+                </div>
+                <!-- all cars  -->
+                <div class="col-md-9 col-lg-8">
+
+                    <!-- breadcrumbs for mobile  -->
+                     <div class="row breadcrumbs">
+                        <div class="col-12 ">
+                            <span>
+                                <a href="">Home</a> > <a href="" class="active">Advance Search</a>
+                            </span>
+                        </div>
+                     </div>
+
+                    <!-- filter buttons for mobile device  -->
+                    <div class="filter_button_mobile">
+                        <div class="row">
+                            <div class="col-4 d-none">
+                                <button class="btn btn-filter-btn mb-3" id="search-form-filter">
+                                <img src="assets/img/Card Search.png" alt="">Filter
+                                </button>
+                            </div> 
+                            <div class="col-4 d-none">
+                                <button class="btn btn-filter-btn mb-3" id="sort_button">
+                                <img src="assets/img/filter.png" alt="">Sort by
+                                </button>
+                            </div>
+                            <div class="col-12">
+                                <button class="btn btn-filter-btn mb-3" style="font-size: 14px; text-align: left;" id="search_car">
+                                <img src="assets/img/car icon.png" alt="">Seacrh by Car
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    
+
+                    <!-- mobile  toggle button results  -->
+                    <div  class="row">
+                        <div id="wrap_search_by_car_card" class="col-12 d-none">
+                            <div id="search_by_car_card" class="card p-3 d-none toggle-section">
+                                 <div class="brand_list">
+                                    <ul>
+                                        <li>
+                                            <a href="#">
+                                                <div class="brand_logo">
+                                                    <img src="assets/img/brand_bmw.webp" class="img-fluid" alt="">
+                                                </div>
+                                                BMW <span>(154)</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <div class="brand_logo">
+                                                    <img src="assets/img/brand_bmw.webp" class="img-fluid" alt="">
+                                                </div>
+                                                BMW <span>(154)</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <div class="brand_logo">
+                                                    <img src="assets/img/brand_bmw.webp" class="img-fluid" alt="">
+                                                </div>
+                                                BMW <span>(154)</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="">
+                                                <div class="brand_logo">
+                                                    <img src="assets/img/brand_toyota.png" class="img-fluid" alt="">
+                                                </div>
+                                                TOYOTA <span>(154)</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <div class="brand_logo">
+                                                    <img src="assets/img/brand_bmw.webp" class="img-fluid" alt="">
+                                                </div>
+                                                BMW <span>(154)</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <div class="brand_logo">
+                                                    <img src="assets/img/brand_bmw.webp" class="img-fluid" alt="">
+                                                </div>
+                                                BMW <span>(154)</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="">
+                                                <div class="brand_logo">
+                                                    <img src="assets/img/brand_toyota.png" class="img-fluid" alt="">
+                                                </div>
+                                                TOYOTA <span>(154)</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <div class="brand_logo">
+                                                    <img src="assets/img/brand_bmw.webp" class="img-fluid" alt="">
+                                                </div>
+                                                BMW <span>(154)</span>
+                                            </a>
+                                        </li>
+                                    
+                                        <li>
+                                            <a href="#">
+                                                <div class="brand_logo">
+                                                    <img src="assets/img/brand_bmw.webp" class="img-fluid" alt="">
+                                                </div>
+                                                BMW <span>(154)</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="">
+                                                <div class="brand_logo">
+                                                    <img src="assets/img/brand_toyota.png" class="img-fluid" alt="">
+                                                </div>
+                                                TOYOTA <span>(154)</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="">
+                                                <div class="brand_logo">
+                                                    <img src="assets/img/brand_toyota.png" class="img-fluid" alt="">
+                                                </div>
+                                                TOYOTA <span>(154)</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <div class="brand_logo">
+                                                    <img src="assets/img/brand_bmw.webp" class="img-fluid" alt="">
+                                                </div>
+                                                BMW <span>(154)</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="">
+                                                <div class="brand_logo">
+                                                    <img src="assets/img/brand_toyota.png" class="img-fluid" alt="">
+                                                </div>
+                                                TOYOTA <span>(154)</span>
+                                            </a>
+                                        </li>
+                                
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!-- product image gallery  -->
+                    <section class="gallery px-0">
+                        <div class="container">
+                            <div class="row align-items-end">
+                                <div class="col-lg-6">
+                                    <h2 class="car-details-title dark-ash fw-bold src">MITSUBISHI MIRAGE </h2>
+                                    <!-- <div class="showONMobile car-title pb-md-0 pb-2">
+                                       
+                                        <div class="tags bg-danger text-dark details d-inline-block text-danger">
+                                            48000 km  |  GREEN  | No Accident  |  1000
+                                        </div>
+                
+                                        <p class="mt-3 fs-5 light-ash text-dark mb-0">  Vehicle Price </p>
+                                        <h3 class="text-danger pink src fs-3 fw-bold">USD 2,275</h3>
+                                    </div> -->
+                
+                                    <div class="line my-2 hide-mobile"></div>
+                                </div>
+                                <div class="col-lg-6 ">
+                                    <div class="hideonMobile"> <p class=" fs-5 text-dark light-ash mb-0"> Vehicle Price </p>
+                                        <h3 class="text-danger pink src fs-3 fw-bold">USD 2,275</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row gy-2">
+                                <div class="col-lg-6 column-height">
+                                    
+                                    <img src="https://www.next-drive.co.jp/uploads/vehicles/u00046070469-002-jpg-1227984036.jpg" alt="" class="img-fluid carImg card-img-top car-img-design">
+                                </div>
+                                <div class="col-lg-6 column-height">
+                                    <div class="row g-0 mx-1 mx-md-0 crbtns">
+                                                                    
+                                            <div class="col-lg-2 col-md-4 col-6 p-1">
+                                                <button class="btn carBtn p-0 active">
+                                                    <img src="https://www.next-drive.co.jp/uploads/vehicles/u00046070469-002-jpg-1227984036.jpg" alt="" class="img-fluid card-img-top">
+                                                </button>
+                                            </div>
+                                                                    
+                                            <div class="col-lg-2 col-md-4 col-6 p-1">
+                                                <button class="btn carBtn p-0">
+                                                    <img src="https://www.next-drive.co.jp/uploads/vehicles/u00046070469-5-001-jpg-1418015612.jpg" alt="" class="img-fluid card-img-top">
+                                                </button>
+                                            </div>
+                                                                    
+                                            <div class="col-lg-2 col-md-4 col-6 p-1">
+                                                <button class="btn carBtn p-0">
+                                                    <img src="https://www.next-drive.co.jp/uploads/vehicles/u00046070469-2-002-jpg-269201846.jpg" alt="" class="img-fluid card-img-top">
+                                                </button>
+                                            </div>
+                                                                    
+                                            <div class="col-lg-2 col-md-4 col-6 p-1">
+                                                <button class="btn carBtn p-0">
+                                                    <img src="https://www.next-drive.co.jp/uploads/vehicles/u00046070469-9-001-jpg-1807992649.jpg" alt="" class="img-fluid card-img-top">
+                                                </button>
+                                            </div>
+                                                                    
+                                            <div class="col-lg-2 col-md-4 col-6 p-1">
+                                                <button class="btn carBtn p-0">
+                                                    <img src="https://www.next-drive.co.jp/uploads/vehicles/u00046070469-13-001-jpg-1659776752.jpg" alt="" class="img-fluid card-img-top">
+                                                </button>
+                                            </div>
+                                                                    
+                                            <div class="col-lg-2 col-md-4 col-6 p-1">
+                                                <button class="btn carBtn p-0">
+                                                    <img src="https://www.next-drive.co.jp/uploads/vehicles/u00046070469-8-001-jpg-1248704009.jpg" alt="" class="img-fluid card-img-top">
+                                                </button>
+                                            </div>
+                                                                    
+                                            <div class="col-lg-2 col-md-4 col-6 p-1">
+                                                <button class="btn carBtn p-0">
+                                                    <img src="https://www.next-drive.co.jp/uploads/vehicles/u00046070469-12-001-jpg-1570124546.jpg" alt="" class="img-fluid card-img-top">
+                                                </button>
+                                            </div>
+                                                                    
+                                            <div class="col-lg-2 col-md-4 col-6 p-1">
+                                                <button class="btn carBtn p-0">
+                                                    <img src="https://www.next-drive.co.jp/uploads/vehicles/u00046070469-16-001-jpg-1923511413.jpg" alt="" class="img-fluid card-img-top">
+                                                </button>
+                                            </div>
+                                                                    
+                                            <div class="col-lg-2 col-md-4 col-6 p-1">
+                                                <button class="btn carBtn p-0">
+                                                    <img src="https://www.next-drive.co.jp/uploads/vehicles/u00046070469-15-001-jpg-1926989020.jpg" alt="" class="img-fluid card-img-top">
+                                                </button>
+                                            </div>
+                                                                    
+                                            <div class="col-lg-2 col-md-4 col-6 p-1">
+                                                <button class="btn carBtn p-0">
+                                                    <img src="https://www.next-drive.co.jp/uploads/vehicles/u00046070469-18-001-jpg-215191903.jpg" alt="" class="img-fluid card-img-top">
+                                                </button>
+                                            </div>
+                                                                    
+                                            <div class="col-lg-2 col-md-4 col-6 p-1">
+                                                <button class="btn carBtn p-0">
+                                                    <img src="https://www.next-drive.co.jp/uploads/vehicles/u00046070469-32-001-jpg-188779330.jpg" alt="" class="img-fluid card-img-top">
+                                                </button>
+                                            </div>
+                                                                    
+                                            <div class="col-lg-2 col-md-4 col-6 p-1">
+                                                <button class="btn carBtn p-0">
+                                                    <img src="https://www.next-drive.co.jp/uploads/vehicles/u00046070469-19-001-jpg-941219458.jpg" alt="" class="img-fluid card-img-top">
+                                                </button>
+                                            </div>
+                                                                    
+                                            <div class="col-lg-2 col-md-4 col-6 p-1">
+                                                <button class="btn carBtn p-0">
+                                                    <img src="https://www.next-drive.co.jp/uploads/vehicles/u00046070469-31-001-jpg-1015719061.jpg" alt="" class="img-fluid card-img-top">
+                                                </button>
+                                            </div>
+                                                                    
+                                            <div class="col-lg-2 col-md-4 col-6 p-1">
+                                                <button class="btn carBtn p-0">
+                                                    <img src="https://www.next-drive.co.jp/uploads/vehicles/u00046070469-3-001-jpg-1793479421.jpg" alt="" class="img-fluid card-img-top">
+                                                </button>
+                                            </div>
+                                                                    
+                                            <div class="col-lg-2 col-md-4 col-6 p-1">
+                                                <button class="btn carBtn p-0">
+                                                    <img src="https://www.next-drive.co.jp/uploads/vehicles/u00046070469-6-001-jpg-1212053619.jpg" alt="" class="img-fluid card-img-top">
+                                                </button>
+                                            </div>
+                                                                    
+                                            <div class="col-lg-2 col-md-4 col-6 p-1">
+                                                <button class="btn carBtn p-0">
+                                                    <img src="https://www.next-drive.co.jp/uploads/vehicles/u00046070469-11-001-jpg-1421645062.jpg" alt="" class="img-fluid card-img-top">
+                                                </button>
+                                            </div>
+                                                                    
+                                            <div class="col-lg-2 col-md-4 col-6 p-1">
+                                                <button class="btn carBtn p-0">
+                                                    <img src="https://www.next-drive.co.jp/uploads/vehicles/u00046070469-33-001-jpg-1752460245.jpg" alt="" class="img-fluid card-img-top">
+                                                </button>
+                                            </div>
+                                        </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <div class="hideonMobile">
+                                        <h3 class="car-details-pakage mt-3 src fw-bold mb-3"> MITSUBISHI MIRAGE  </h3>
+                                        <div class="tags bg-danger text-dark details d-inline-block text-danger">
+                                            48000 km  |  GREEN  |  No Accident  |  1000
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 mb-2">
+                                    <div class="text-center mt-2 ask-btn showONMobile">
+                                        <button type="button" class="btn ask-price-btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                            <img src="assets/img/Ask for best price.png" class="img-fluid ask-price-btn-img" alt="">
+                                        </button>
+                                        <div class="bottom-border"></div>
+                                    </div>
+                                    <div class="text-end text-danger download-btn pink hideonMobile">
+                                        <a href="" class="btn btn-white">
+                                            <i class="fa dark-red fa-download"></i> Download All Images
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- car details  -->
+                    <section class="car-details px-3">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-8 px-3 py-md-3 py-0">
+                                    <div class="flx">
+                                        <span class="bg-danger pink-bg px-4 p-2 text-white cornder-cropped position-relative">
+                                            <div class="fold"></div>
+                                             Car Details
+                                        </span>
+                                    </div>
+                                    <div class="line"></div>
+                                    <div class="table-responsive">
+                                        <table class="table detTable">
+                                            <tbody><tr class="table-border">
+                                                <td class="bg-light table-td-bg text-black border table-border">
+                                                    Reference ID:
+                                                </td>
+                                                <td class="border table-border">74768 </td>
+                                                <td class="bg-light table-td-bg text-black border table-border">
+                                                    Location:
+                                                </td>
+                                                <td class="border table-border">
+                                                    JAPAN
+                                                </td>
+                                            </tr>
+                                            <tr class="table-border">
+                                                <td class="bg-light table-td-bg text-black border table-border"> Model Code:  </td>
+                                                <td class="border table-border">215</td>
+                                                <td class="bg-light table-td-bg text-black border table-border"> Registration Year: </td>
+                                                <td class="border table-border">2013</td>
+                                            </tr>
+                    
+                    
+                                            <tr class="table-border">
+                                                <td class="bg-light table-td-bg text-black border table-border">
+                                                    Transmission:
+                                                </td>
+                                                <td class="border table-border">
+                                                    
+                                                </td>
+                                                <td class="bg-light table-td-bg text-black border table-border">Color:</td>
+                                                <td class="border table-border">GREEN</td>
+                                            </tr>
+                    
+                    
+                                            <tr class="table-border">
+                                                <td class="bg-light table-td-bg text-black border table-border">Steering:</td>
+                                                <td class="border table-border"></td>
+                                                <td class="bg-light table-td-bg text-black border table-border">
+                                                    Seats:
+                                                </td>
+                                                <td class="border table-border"> 5 </td>
+                                            </tr>
+                    
+                                            <tr class="table-border">
+                                                <td class="bg-light table-td-bg text-black border table-border">Engine  Capacity:</td>
+                                                <td class="border table-border">1000</td>
+                                                <td class="bg-light table-td-bg text-black border table-border">Mileage:</td>
+                                                <td class="border table-border">48000 km</td>
+                                            </tr>
+                    
+                                            <tr class="table-border">
+                                                <td class="bg-light table-td-bg table-border text-black border">Fuel:</td>
+                                                <td class="border table-border">GASOLINE</td>
+                                                <td class="bg-light table-td-bg table-border border text-black">Equip:</td>
+                                                <td class="border table-border"></td>
+                                            </tr>
+                                        </tbody>
+                                        </table>
+                                    </div>
+                               
+                
+                                    <div class="flx height-space3">
+                                        <div class="bg-danger pink-bg px-4 p-2 text-white cornder-cropped position-relative">
+                                            <div class="fold"></div>
+                                            Specifications
+                                        </div>
+                                    </div>
+                                    <div class="line"></div>
+                                    <div class="d-flex flex-wrap py-2 justify-content-start">
+                                        <div class="btn bg-danger low-pink-bg text-white text-center spec-tb-border">Air Bag
+                                        </div>
+                                        <div class="btn bg-danger low-pink-bg text-white text-center spec-tb-border">Anti-lock
+                                        </div>
+                                        <div class="btn bg-danger low-pink-bg text-white text-center spec-tb-border"> Brake System
+                                        </div>
+                                        <div class="btn bg-danger low-pink-bg text-white text-center spec-tb-border">Air Conditioner
+                                        </div>
+                                        <div class="btn bg-danger low-pink-bg text-white text-center spec-tb-border">Alloy Wheels
+                                        </div>
+                                        <div class="btn bg-danger low-pink-bg text-white text-center spec-tb-border">Power Window
+                                        </div>
+                                        <div class="btn bg-danger low-pink-bg text-white text-center spec-tb-border">Power Steering
+                                        </div>
+                                        <div class="btn w-100 bg-light spec-tb text-center">
+                                            <i class="fa fa-times"></i>
+                                            Power Seat
+                                        </div>
+                                        <div class="btn w-100 bg-light spec-tb text-center">
+                                            <i class="fa fa-times"></i>
+                                            Power Slide Door
+                                        </div>
+                                        <div class="btn w-100 bg-light spec-tb text-center">
+                                            <i class="fa fa-times"></i>
+                                            HID Light
+                                        </div>
+                                        <div class="btn w-100 bg-light spec-tb text-center">
+                                            <i class="fa fa-times"></i>
+                                            FOG Light
+                                        </div>
+                                        <div class="btn w-100 bg-light spec-tb text-center">
+                                            <i class="fa fa-times"></i>
+                                            LED Light
+                                        </div>
+                                        <div class="btn w-100 bg-light spec-tb text-center">
+                                            <i class="fa fa-times"></i>
+                                            Push Start
+                                        </div>
+                                        <div class="btn w-100 bg-light spec-tb text-center">
+                                            <i class="fa fa-times"></i>
+                                            Steering Switch
+                                        </div>
+                                        <div class="btn w-100 bg-light spec-tb text-center">
+                                            <i class="fa fa-times"></i>
+                                            Back Monitor
+                                        </div>
+                                        <div class="btn w-100 bg-light spec-tb text-center">
+                                            <i class="fa fa-times"></i>
+                                            Sun Roof
+                                        </div>
+                                        <div class="btn w-100 bg-light spec-tb text-center">
+                                            <i class="fa fa-times"></i>
+                                            Glass Roof
+                                        </div>
+                                        <div class="btn w-100 bg-light spec-tb text-center">
+                                            <i class="fa fa-times"></i>
+                                            Roof Rail
+                                        </div>
+                                        <div class="btn w-100 bg-light spec-tb text-center">                                            <i class="fa fa-times"></i>
+                                            Leather Seat
+                                        </div>
+                                        <div class="btn w-100 bg-light spec-tb text-center">
+                                            <i class="fa fa-times"></i>
+                                            Seat Heater
+                                        </div>
+                                        <div class="btn w-100 bg-light spec-tb text-center">
+                                            <i class="fa fa-times"></i>
+                                            Back Tire
+                                        </div>
+                                        <div class="btn w-100 bg-light spec-tb text-center">
+                                            <i class="fa fa-times"></i>
+                                            Grill Guard
+                                        </div>
+                                        <div class="btn w-100 bg-light spec-tb text-center">
+                                            <i class="fa fa-times"></i>
+                                            Side Step
+                                        </div>
+                                        <div class="btn w-100 bg-light spec-tb text-center">
+                                            <i class="fa fa-times"></i>
+                                            Aero Parts
+                                        </div>
+                                        <div class="btn w-100 bg-light spec-tb text-center">
+                                            <i class="fa fa-times"></i>
+                                            Rear Spoiler
+                                        </div>
+                                        <div class="btn w-100 bg-light spec-tb text-center">
+                                            <i class="fa fa-times"></i>
+                                            Car Navigation System
+                                        </div>
+                                    </div>
+                                </div>
+                
+                                <div class="sticky-buttons car-details-sticky-btn">
+                                    <div class="container">
+                                        <div class="row align-items-center">
+                                            <div class="col-6">
+                                                <a href="" class="btn">
+                                                    <img src="assets/img/wtsp.png" class="img-fluid sticky-images-click" alt="">
+                                                </a>
+                                            </div>
+                                            <div class="col-6">
+                                                <button type="button" class="btn ask-price-btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                                    <img src="assets/img/Ask for best price.png" class="img-fluid sticky-images-click" alt="">
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                
+                
+                                <div class="col-lg-4 top-margin car-top-padding p-3">
+                                    <div class="card br-20 border-danger border-3 border-color">
+                                        <div class="card-header bg-danger pink-bg text-center round-border">
+                                            <h3 class="text-white mb-0 get-qoute">Get a Quote</h3>
+                                        </div>
+                                        <div class="card-body">
+                                            <form id="getQuote" class="gray-form" action="#">
+                                                <div class="inp mb-1">
+                                                    <label class="mb-1" for="">Name:</label>
+                                                    <input type="text" class="form-control " name="name" id="">
+                                                </div>
+                                                <div class="inp mb-1">
+                                                    <label class="mb-1" for="">Country:</label>
+                                                    <select id="generateEstimate" required="" class="form-control " name="country">
+                                                        <option value="">Please Select</option>                             <option>Kenya</option> <option>Uganda</option>
+                                                        <option>UK</option>
+                                                        <option>USA</option>
+                                                        <option>Zambia</option>
+                                                    </select>
+                                                </div>
+                                                <div id="estimate" class="form-group" style="display: none">
+                                                    <table class="table">
+                                                        <tbody><tr>
+                                                            <td>Price</td>
+                                                            <td id="ePrice">$0</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Cost</td>
+                                                            <td id="eCosts">$0</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td><strong>Total</strong></td>
+                                                            <td><strong id="eTotal">$0 (Approx)</strong></td>
+                                                        </tr>
+                                                    </tbody></table>
+                                                </div>
+                                                <div class="inp mb-1">
+                                                    <label class="mb-1" for="">Email Address:</label>
+                                                    <input type="text" class="form-control " name="email" id="">
+                                                </div>
+                
+                                                <div class="inp mb-1">
+                                                    <label class="mb-1" for="">Tell(Whatsapp):</label>
+                                                    <input type="text" class="form-control " name="phone" id="">
+                                                </div>
+                                                <div class="inp mb-1">
+                                                    <label class="mb-1" for="">Comment:</label>
+                                                    <textarea name="comment" class="form-control" id="" cols="30" rows="3"></textarea>
+                                                </div>
+                                                <div class="checkbox d-flex justify-content-start">
+                                                    <input type="checkbox" name="newsletter" id="check" checked=""> <label for="check" class="mb-0">Subscribe newsletter for discounts</label>
+                                                </div>
+                                                <div class="form-group">
+                                                    <input type="hidden" name="vehicle" value="mitsubishi-mirage-215">
+                                                </div>
+                                                <div class="form-group" id="message" style="display:none;">
+                                                    <label class="alert alert-success"></label>
+                                                </div>
+                                                <div class="text-center">
+                                                    <button type="submit" class="btn btn-danger ask-for-price-btn mt-3 shadow pappu1" id="pappu2">Ask for the best price</button>
+                                                </div>
+                                                <div class="text-center mt-3">
+                                                    <a href="https://wa.me/+817089157075" class="btn">
+                                                        <img src="assets/img/wtsp.png" class="img-fluid" alt="">
+                                                    </a>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    
+                    <!-- additional info  -->
+                    <section class="py-2 px-3">
+                        <div class="container">
+                            <div class="row align-items-start justify-content-center">
+                                <div class="col-md-4 p-md-3 p-0">
+                                <img src="assets/img/nissan elgrand.jpg" class="img-fluid card-img-top" alt="">
+                                </div>
+                                <div class="col-md-8 p-3 text-start aboutCarContent">
+                                    <h4 class="mb-3 car-details-title dark-ash fw-bold src">Used Nissan Elgrand Car for Sale</h4>
+                                    <p>Nissan Elgrand is a premium minivan, renowned for its spaciousness, comfort, and advanced features. First introduced in 1997, it quickly gained popularity in Japan and other markets for its blend of luxury and practicality. The Elgrand stands out with its sleek design, characterized by a bold front grille, large headlights, and a streamlined body. Moreover, Its exterior exudes a commanding presence, making it a favorite among those who seek a vehicle with both style and substance.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    
+                </div>
+
+                <!-- ad image  -->
+                <div class="d-md-none d-lg-block col-lg-2 mobile_none">
+                    <div class="ad_section">
+                        <div class="ad_image">
+                            <a href="">
+                                <img src="assets/img/ad image one.png" class="img-fluid w-100" alt="">
+                            </a>
+                        </div>
+                        <div class="ad_image">
+                           <a href="">
+                             <img src="assets/img/ad image two.png" class="img-fluid w-100" alt="">
+                           </a>
+                        </div>
+                        <div class="ad_image">
+                            <a href="">
+                                <img src="assets/img/ad aimage three.png" class="img-fluid w-100" alt="">
+                            </a>
+                        </div>
+                        <div class="ad_image">
+                            <a href="">
+                                <img src="assets/img/ad img four.png" class="img-fluid w-100" alt="">
+                            </a>
+                        </div>
+                        <div class="ad_image">
+                            <a href="">
+                                <img src="assets/img/ad image five.png" class="img-fluid w-100" alt="">
+                            </a>
+                        </div>
+                        <div class="ad_image">
+                            <a href="">
+                                <img src="assets/img/ad image six.png" class="img-fluid w-100" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- end of col-10  -->
+                </div><!-- end of row  -->
+            </div>
+    </section>
+
+
+    <!-- Asking Price Modal -->
+    <div class="modal asking_price fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+            <div class="modal-header">
+                <h2 class="modal-title fs-5" id="exampleModalLabel">For your best price</h2>
+                <button type="button" class="close-btn" data-bs-dismiss="modal" aria-label="Close"><i class="fa-solid fa-xmark"></i></button>
+            </div>
+            <div class="modal-body">
+                <div class="row car_information">
+                    <div class="col-sm-5 col-4">
+                        <img src="assets/img/NISSANDUALIS 20S.png" class="img-fluid w-100" alt="">
+                    </div>
+                    <div class="col-sm-7 col-8 cars_info_box">
+                        <div class="car_desc">
+                            <h3>TOYOTA <span>COROLLA</span></h3>
+                            <p>0 MR31S 0 LEFT</p>
+                            <ul >
+                                <li>
+                                    <div class="others_info">
+                                        <img src="assets/img/metere.png" class="img-fluid" alt="">
+                                        Mileage
+                                    </div>
+                                    <p>131,512 km</p>
+                                </li>
+                                <li>
+                                    <div class="others_info">
+                                        <img src="assets/img/calender2.png" class="img-fluid" alt="">
+                                        Year
+                                    </div>
+                                    <p>2005/5</p>
+                                </li>
+                                <li>
+                                    <div class="others_info">
+                                        <img src="assets/img/emgine.png" class="img-fluid" alt="">
+                                        Engine
+                                    </div>
+                                    <p>3,550cc</p>
+                                </li>
+                                <li>
+                                    <div class="others_info">
+                                        <img src="assets/img/trans.png" class="img-fluid" alt="">
+                                        Trans.
+                                    </div>
+                                    <p>AT</p>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="price_button">
+                            <p>Price: USD 9,790</p>
+                        </div>
+                    </div>
+                </div> <!-- end row !-->
+
+                <div class="row car_query_form">
+                    <form action="">
+                        <label for="">Your Name:</label>
+                        <input type="text" class="form-control mb-3">
+                        
+                        <label for="country" class="form-label">Country :</label>
+                        <select id="country" class="form-select mb-3">
+                            <option value="">Please Select</option>
+                            <option value="Bangladesh">Bangladesh</option>
+                            <option value="Bangladesh">USA</option>
+                            <option value="Bangladesh">India</option>
+                        </select>
+                        <!-- Info Box Area -->
+                        <div id="country-boxes">
+                            <div class="alert alert-info country-info d-none" data-country="Bangladesh">
+                                <ul>
+                                    <li>
+                                        <p>Price:</p>
+                                        <p>USD 1,246</p>
+                                    </li>
+                                    <li>
+                                        <p>Cost:</p>
+                                        <p>USD 1,546</p>
+                                    </li>
+                                    <li>
+                                        <p><strong>Total</strong></p>
+                                        <p><strong>USD 1,246</strong></p>
+                                    </li>
+                                </ul>
+                            </div>
+                            </div>
+
+                        <label for="">Whatsapp Number:</label>
+                        <input type="text" class="form-control mb-3">
+                        <label for="">Comment:</label>
+                        <textarea name="" class="form-control mb-3" id=""></textarea>
+                        <div class="subscribe_checkbox">
+                            <input type="checkbox" > 
+                            <p>Subscribe newsletter for discounts</p>
+                        </div>
+                        <input type="submit" class="btn btn-ask">
+                    </form>
+                </div>
+
+            </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- sticky wahtsapp button  -->
+    <div class="showONDesktop">
+    <a href="https://wa.me/+817089157075" class="wpLink1">
+        <div id="wa_img">
+            <span id="wpClose">x</span>
+            <img src="https://0fab917d.nextdrive-assets.pages.dev/next_drive/img/Group_122.png" class="img-fluid" alt="">
+        </div>
+    </a>
+</div>
+
+
+     <!-- signup and footer part -->
+
+     <div class="signup_section">
+        <div class="container">
+            <div class="row justify-content-center align-items-center">
+                <div class="col-lg-4 col-md-5">
+                    <img src="assets/img/signup.png" class="img-fluid w-100" alt="">
+                </div>
+                <div class="col-lg-4 col-md-7 col-12">
+                    <label for="">Instant US$100 discount!</label>
+                    <form action="">
+                        <input type="email" class="form-control" placeholder="Your Email Address">
+                        <input type="submit" class="form-control" value="Subscribe">
+                    </form>
+                </div>
+            </div>
+        </div>
+     </div>
+
+    <!-- signup and footer part -->
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-6  flex">
+                    <div class="ii ">
+                        <img src="assets/img/next-drive.png" class="img-fluid" alt="">
+                      
+                        <p class="first">306-7-301 NISHIZUKA HIGASHI KU, HAMAMATSU, SHIZUOKA, JAPAN 435-0044
+                    </p>
+                    </div>
+                   <div class="ii ">
+                        <div class="social_icon desktop_hide">
+                            <ul class="">
+                                <li>
+                                    <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                                </li>
+                                <li>
+                                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                       
+                        <p>TEL <a href="">+(81)50-8880-4470</a></p>
+                        <p>FAX <a href="">+(81)53-533-8238</a></p>
+                        <p>EMAIL <a href="">info@next-drive.co.jp</a></p>
+                   </div>
+                </div>
+
+                <div class="col-md-3 col-6 quick_list">
+                    <h5>About Next Drive:</h5>
+                        <ul>
+                            <li>
+                                <a href="">Company Profile</a>
+                            </li>
+                            <li>
+                                <a href="">Bank Information</a>
+                            </li>
+                            <li>
+                                <a href="">Why Next Drive?</a>
+                            </li>
+                        </ul>
+                </div>
+
+                <div class="col-md-3 col-6   quick_list">
+                    <h5>How To Buy :</h5>
+                        <ul>
+                            <li>
+                                <a href="">From Stock</a>
+                            </li>
+                            <li>
+                                <a href="">From Auction Venue</a>
+                            </li>
+                            <li>
+                                <a href="">From Yahoo! Auction</a>
+                            </li>
+                        </ul>
+                </div>
+                <div class="col-md-2 col-6  quick_list">
+                    <h5>Terms &amp; Conditions:</h5>
+                        <ul>
+                            <li>
+                                <a href="">Terms of use</a>
+                            </li>
+                            <li>
+                                <a href="">Privacy Policy</a>
+                            </li>
+                            <li>
+                                <a href="">How we use Cookies</a>
+                            </li>
+                        </ul>
+                </div>
+
+                <div class="col-md-3 col-6  offset-md-4 quick_list">
+                    <h5>Partnerships:</h5>
+                        <ul>
+                            <li>
+                                <a href="">Join our Global Partnership</a>
+                            </li>
+                            <li>
+                                <a href="">Join our Japan Partnership</a>
+                            </li>
+                            <li>
+                                <a href="">Let's Get in Touch</a>
+                            </li>
+                        </ul>
+                </div>
+                <div class="col-md-3 col-6  quick_list">
+                    <h5>Useful Links:</h5>
+                        <ul>
+                            <li>
+                                <a href="">Shipping Schedule</a>
+                            </li>
+                            <li>
+                                <a href="">Check Manufacture Year</a>
+                            </li>
+                            <li>
+                                <a href="">Exchange Rate</a>
+                            </li>
+                        </ul>
+                </div>
+                <div class="col-md-2 col-6  social_icon">
+                    <h5>SNS:</h5>
+                    <ul class="">
+                        <li>
+                            <a href=""><i class="fa-brands fa-facebook"></i></a>
+                        </li>
+                        <li>
+                            <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="copyright">
+           <div class="container">
+            <div class="row">
+                <p>©Copyright 2025 Next Drive Co., Ltd All rights reserved</p>
+            </div>
+           </div>
+        </div>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/d2d598fe43.js" crossorigin="anonymous"></script>
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <!-- gallery   -->
+    <script src="assets/js/plugins.min.js"></script>
+    <script src="assets/js/main.js"></script>
+    <!-- Select2 JS -->
+    <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>

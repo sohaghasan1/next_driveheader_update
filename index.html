@@ -1,0 +1,1947 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Next Drive</title>
+    <!-- fonts  -->
+    <link rel="stylesheet" href="assets/fonts/stylesheet.css" />
+    <link rel="stylesheet" href="assets/fonts/signpainter/stylesheet.css" />
+
+    <!-- jquery ui css -->
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css" />
+    <!-- bootstrap css  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <!-- owl carousel css  -->
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="assets/css/owl.theme.default.min.css" />
+    <!-- custom css  -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/media.css" />
+</head>
+
+<body>
+    <!-- header section  -->
+    <header>
+        <div class="top_bar">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-6 mobile_none">
+                        <ul class="top_bar_left_item">
+                            <li>
+                                Japanese used vehicle
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-circle"></i>
+                                Japanese car export
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-circle"></i>
+                                Import Japan car
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6">
+                        <ul class="right_nav_items">
+                            <li>
+                                September 04, 02:36 (JST) TTB 1 USD = 145.00 Yen
+                            </li>
+                            <li class="currency">
+                                <select name="" id="">
+                                    <option value="">USD</option>
+                                    <option value="">USD</option>
+                                </select>
+                            </li>
+                            <li class="mobile_none laptop-hide">
+                                <button class="customer-login-btn">Customer Login</button>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main_bar">
+            <div class="container-fluid">
+                <div class="row">
+                    <!-- desktop header  -->
+                    <nav class="navbar navbar-expand-md header_mobile_none">
+                        <div class="container-fluid">
+                            <a class="navbar-brand" href="#"><img src="assets/img/next-drive.png" class="img-fluid"
+                                    alt="" /></a>
+
+                            <form action="" class="search_by_kw">
+                                <input type="text" class="form-control" placeholder="Search By Car.." />
+                                <button type="submit">
+                                    <i class="fa-solid fa-magnifying-glass"></i>
+                                    Search
+                                </button>
+                            </form>
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                                aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                <ul class="navbar-nav mb-2 mb-lg-0">
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Home</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">About Us</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Blog</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">FAQ</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Contact</a>
+                                    </li>
+                                </ul>
+
+                            </div>
+                        </div>
+                    </nav>
+                    <!-- desktop header  -->
+
+                    <!-- Mobile header  -->
+                    <nav class="navbar mobile_nav header_desktop_none">
+                        <div class="container-fluid">
+                            <a class="navbar-brand" href="#"><img src="assets/img/next-drive.png" class="img-fluid"
+                                    alt="" /></a>
+                            <form action="" class="search_by_kw mobile_none">
+                                <input type="text" class="form-control" placeholder="Search By Car.." />
+                                <button type="submit">
+                                    <i class="fa-solid fa-magnifying-glass"></i>
+                                    Search
+                                </button>
+                            </form>
+
+                            <div class="right_nav_items ms-auto">
+                                <ul>
+                                    <li>
+                                        <button class="btn btn-login">Login</button>
+                                    </li>
+                                </ul>
+                            </div>
+                            <button class="navbar-toggler dropdown-toggle tablet-hide" type="button"
+                                data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling"
+                                aria-controls="staticBackdrop">
+                                <div class="menu example5"><span></span></div>
+                            </button>
+                            <div class="offcanvas offcanvas-start desktop_hide" data-bs-scroll="true"
+                                data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling"
+                                aria-labelledby="offcanvasScrollingLabel">
+                                <div class="offcanvas-header">
+                                    <button type="button" class="btn" data-bs-dismiss="offcanvas" aria-label="Close"><i
+                                            class="fa-solid fa-xmark"></i></button>
+                                </div>
+                                <div class="offcanvas-body ">
+                                    <ul class="">
+                                        <li>
+                                            <div class="my_menu">
+                                                <i class="fa-solid fa-car"></i>
+                                                <a href="">My Menu</a>
+                                            </div>
+                                            <button class="customer_btn">Customer Login</button>
+                                        </li>
+                                        <li>
+                                            <label for="currency">Currency</label>
+                                            <div class="dropdown">
+                                                <button class="btn dropdown-toggle" type="button"
+                                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                                    USD
+                                                </button>
+                                                <ul class="dropdown-menu dropdown-menu-dark">
+                                                    <li><a class="dropdown-item active" href="#">JPY</a></li>
+                                                    <li><a class="dropdown-item" href="#">USD</a></li>
+                                                    <li><a class="dropdown-item" href="#">GBP</a></li>
+                                                    <li><a class="dropdown-item" href="#">BDT</a></li>
+                                                    <li><a class="dropdown-item" href="#">AUD</a></li>
+                                                    <li><a class="dropdown-item" href="#">CAD</a></li>
+                                                    <li><a class="dropdown-item" href="#">TZS</a></li>
+                                                </ul>
+                                            </div>
+                                        </li>
+
+                                        <li>
+                                            <a href="">Home</a>
+                                        </li>
+                                        <li>
+                                            <a href="">About Us</a>
+                                        </li>
+                                        <li>
+                                            <a href="">Blog</a>
+                                        </li>
+                                        <li>
+                                            <a href="">FAQ</a>
+                                        </li>
+                                        <li>
+                                            <a href="">Contact</a>
+                                        </li>
+                                        <li>
+                                            <div class="my_menu">
+                                                <i class="fa-solid fa-location-dot"></i>
+                                                <a href="">Search Used Cars</a>
+                                            </div>
+
+                                        </li>
+
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="container-fluid moile-search-block">
+                            <form action="" class="search_by_kw desktop_hide">
+                                <input type="text" class="form-control" placeholder="Search By Car.." />
+                                <button type="submit">
+                                    <i class="fa-solid fa-magnifying-glass"></i>
+                                    Search
+                                </button>
+                            </form>
+                            <button class="btn desktop_hide btn-login" data-bs-toggle="offcanvas"
+                                data-bs-target="#filterOption" aria-controls="staticBackdrop">Filter</button>
+                            <!-- search form offcanvas  -->
+                            <div class="offcanvas offcanvas-start" data-bs-backdrop="static" tabindex="-1"
+                                id="filterOption" aria-labelledby="staticBackdropLabel">
+                                <div class="offcanvas-header justify-content-between">
+                                    <p>Advanced Filter</p>
+                                    <div>
+                                        <button type="button" class="reset-filter btn btn-outline-secondary ms-2">Reset
+                                            Filter</button>
+                                        <button type="button" class="close" data-bs-dismiss="offcanvas"
+                                            aria-label="Close">
+                                            <i class="fa-regular fa-circle-xmark"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="offcanvas-body">
+                                    <div>
+                                        <form action="">
+                                            <div class="row gy-3">
+                                                <div class="col-md-3 col-lg">
+                                                    <label for="">Make</label>
+                                                    <select class="select2 form-select">
+                                                        <option value="">Please Select</option>
+                                                        <option value="TOYOTA">TOYOTA</option>
+                                                        <option value="NISSAN">NISSAN</option>
+                                                        <option value="SUZUKI">SUZUKI</option>
+                                                        <option value="HONDA">HONDA</option>
+                                                        <option value="DAIHATSU">DAIHATSU</option>
+                                                        <option value="MAZDA">MAZDA</option>
+                                                        <option value="BMW">BMW</option>
+                                                        <option value="LEXUS">LEXUS</option>
+                                                        <option value="SUBARU">SUBARU</option>
+                                                        <option value="MITSUBISHI">MITSUBISHI</option>
+                                                        <option value="MERCEDES BENZ">MERCEDES BENZ</option>
+                                                        <option value="AUDI">AUDI</option>
+                                                        <option value="PEUGEOT">PEUGEOT</option>
+                                                        <option value="CHRYSLER">CHRYSLER</option>
+                                                    </select>
+                                                </div>
+
+                                                <div class="col-md-3 col-lg">
+                                                    <label for="">Model</label>
+                                                    <select class="select2 form-select">
+                                                        <option value="">Please Select</option>
+                                                        <option value="TOYOTA">86 (23)</option>
+                                                        <option value="NISSAN">ALPHARD (78)</option>
+                                                        <option value="SUZUKI">ALPHARD HYBRID (67)</option>
+                                                        <option value="HONDA">AQUA (56)</option>
+                                                    </select>
+                                                </div>
+                                                <div class="col-md-3 col-lg">
+                                                    <label for="">Model Code</label>
+                                                    <select class="select2 form-select">
+                                                        <option value="">Please Select</option>
+                                                        <option value="TOYOTA">DWGE24</option>
+                                                        <option value="NISSAN">DWGE24</option>
+                                                        <option value="SUZUKI">DWGE24</option>
+                                                        <option value="HONDA">DWGE24</option>
+                                                    </select>
+                                                </div>
+                                                <div class="col-md-3 col-lg">
+                                                    <label for="">Price (USD)</label>
+                                                    <div class="container-fluid">
+                                                        <div class="row">
+                                                            <div class="col-6 px-1">
+                                                                <select class="select2" style="width: 90%;">
+                                                                    <option value="">Min</option>
+                                                                    <option value="TOYOTA">12324</option>
+                                                                    <option value="NISSAN">1243545</option>
+                                                                    <option value="SUZUKI">34534</option>
+                                                                    <option value="HONDA">345345</option>
+                                                                </select>
+                                                            </div>
+                                                            <div class="col-6 px-1">
+                                                                <select class="select2" style="width: 90%;">
+                                                                    <option value="">Max</option>
+                                                                    <option value="TOYOTA">345345</option>
+                                                                    <option value="NISSAN">345345</option>
+                                                                    <option value="SUZUKI">345345</option>
+                                                                    <option value="HONDA">779567</option>
+                                                                </select>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-3 col-lg">
+                                                    <label for="">Year</label>
+                                                    <div class="container-fluid">
+                                                        <div class="row">
+                                                            <div class="col-6 px-1">
+                                                                <select class="select2" style="width: 90%;">
+                                                                    <option value="">Min</option>
+                                                                    <option value="TOYOTA">2013</option>
+                                                                    <option value="NISSAN">2012</option>
+                                                                    <option value="SUZUKI">2011</option>
+                                                                    <option value="HONDA">2010</option>
+                                                                </select>
+                                                            </div>
+                                                            <div class="col-6 px-1">
+                                                                <select class="select2" style="width: 90%;">
+                                                                    <option value="">Max</option>
+                                                                    <option value="TOYOTA">2024</option>
+                                                                    <option value="NISSAN">2023</option>
+                                                                    <option value="SUZUKI">2022</option>
+                                                                    <option value="HONDA">2021</option>
+                                                                </select>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <!-- SECOND ROW (hidden initially) -->
+                                            <div class="row gy-3 mt-3">
+                                                <div class="col-md-3 col-lg-2">
+                                                    <label for="">Engine (CC)</label>
+                                                    <div class="container-fluid">
+                                                        <div class="row">
+                                                            <div class="col-6 px-1">
+                                                                <select class="select2" style="width: 90%;">
+                                                                    <option value="">Min</option>
+                                                                    <option>1990</option>
+                                                                    <option>1991</option>
+                                                                    <option>1992</option>
+                                                                    <option>1993</option>
+                                                                </select>
+                                                            </div>
+                                                            <div class="col-6 px-1">
+                                                                <select class="select2" style="width: 90%;">
+                                                                    <option value="">Max</option>
+                                                                    <option>2001</option>
+                                                                    <option>2002</option>
+                                                                    <option>2003</option>
+                                                                    <option>2004</option>
+                                                                </select>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-md-3 col-lg-2">
+                                                    <label for="">Milage</label>
+                                                    <div class="container-fluid">
+                                                        <div class="row">
+                                                            <div class="col-6 px-1">
+                                                                <select class="select2" style="width: 90%;">
+                                                                    <option value="">Min</option>
+                                                                    <option>1000</option>
+                                                                    <option>5000</option>
+                                                                    <option>10000</option>
+                                                                </select>
+                                                            </div>
+                                                            <div class="col-6 px-1">
+                                                                <select class="select2" style="width: 90%;">
+                                                                    <option value="">Max</option>
+                                                                    <option>50000</option>
+                                                                    <option>100000</option>
+                                                                    <option>150000</option>
+                                                                </select>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-md-3 col-lg-2 mb-3">
+                                                    <label for="">Color</label>
+                                                    <select class="select2 form-select">
+                                                        <option value="">Please Select</option>
+                                                        <option>Red</option>
+                                                        <option>Blue</option>
+                                                        <option>Purple</option>
+                                                    </select>
+                                                </div>
+
+                                                <div class="col-md-3 col-lg-2 ">
+                                                    <label for="">Drive</label>
+                                                    <select class="select2 form-select">
+                                                        <option value="">Please Select</option>
+                                                        <option>Left</option>
+                                                        <option>Right</option>
+                                                    </select>
+                                                </div>
+                                                <div class="col-md-3 col-lg-2">
+                                                    <label for="">Grade (Package)</label>
+                                                    <select class="select2 form-select">
+                                                        <option value="">Please Select</option>
+                                                        <option>AERAS</option>
+                                                        <option>PREMIUM</option>
+                                                        <option>AX</option>
+                                                    </select>
+                                                </div>
+                                                <div class="col-md-3 col-lg-2 ">
+                                                    <label for="">Auction Grad</label>
+                                                    <select class="select2" style="width: 100%;">
+                                                        <option value="">Please Select</option>
+                                                        <option>0</option>
+                                                        <option>15</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+
+                                            <div class="row mt-4">
+                                                <div class="col-md-12 d-flex align-items-center">
+                                                    <input type="submit" value="Done"
+                                                        class="btn btn-submit form-control">
+                                                </div>
+
+                                            </div>
+
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </nav>
+                    <!-- Mobile header  -->
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- header section  -->
+    <!-- search by keyword section  -->
+
+    <!-- main content section  -->
+
+    <section class="main_content">
+        <div class="container-fluid">
+            <div class="row">
+                <!-- mobile brand list start -->
+                <div class="col-12 left_sidebar">
+                    <div class="desktop_hide">
+
+                        <div class="heading search-by-make-btn navbar-toggler" data-bs-toggle="collapse"
+                            data-bs-target="#searchbymake" aria-controls="navbarSupportedContent" aria-expanded="true"
+                            aria-label="Toggle navigation">
+                            <div class="car_icon">
+                                <i class="fa-solid fa-location-dot"></i>
+                            </div>
+                            <div class="headring_title ">
+                                <h4>Search By Make</h4>
+                            </div>
+                        </div>
+
+                        <ul class="navbar-collapse collapse show" id="searchbymake" style="">
+                            <li>
+                                <a href="#">
+                                    <div class="brand_logo">
+                                        <img src="assets/img/brand_bmw.webp" class="img-fluid" alt="" />
+                                    </div>
+                                    BMW <span>(154)</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <div class="brand_logo">
+                                        <img src="assets/img/brand_bmw.webp" class="img-fluid" alt="" />
+                                    </div>
+                                    BMW <span>(154)</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <div class="brand_logo">
+                                        <img src="assets/img/brand_bmw.webp" class="img-fluid" alt="" />
+                                    </div>
+                                    BMW <span>(154)</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <div class="brand_logo">
+                                        <img src="assets/img/brand_toyota.png" class="img-fluid" alt="" />
+                                    </div>
+                                    TOYOTA <span>(154)</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <div class="brand_logo">
+                                        <img src="assets/img/brand_bmw.webp" class="img-fluid" alt="" />
+                                    </div>
+                                    BMW <span>(154)</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <div class="brand_logo">
+                                        <img src="assets/img/brand_bmw.webp" class="img-fluid" alt="" />
+                                    </div>
+                                    BMW <span>(154)</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <div class="brand_logo">
+                                        <img src="assets/img/brand_toyota.png" class="img-fluid" alt="" />
+                                    </div>
+                                    TOYOTA <span>(154)</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <div class="brand_logo">
+                                        <img src="assets/img/brand_bmw.webp" class="img-fluid" alt="" />
+                                    </div>
+                                    BMW <span>(154)</span>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#">
+                                    <div class="brand_logo">
+                                        <img src="assets/img/brand_bmw.webp" class="img-fluid" alt="" />
+                                    </div>
+                                    BMW <span>(154)</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <div class="brand_logo">
+                                        <img src="assets/img/brand_toyota.png" class="img-fluid" alt="" />
+                                    </div>
+                                    TOYOTA <span>(154)</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <div class="brand_logo">
+                                        <img src="assets/img/brand_toyota.png" class="img-fluid" alt="" />
+                                    </div>
+                                    TOYOTA <span>(154)</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <div class="brand_logo">
+                                        <img src="assets/img/brand_bmw.webp" class="img-fluid" alt="" />
+                                    </div>
+                                    BMW <span>(154)</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <div class="brand_logo">
+                                        <img src="assets/img/brand_toyota.png" class="img-fluid" alt="" />
+                                    </div>
+                                    TOYOTA <span>(154)</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- mobile brand list end -->
+                <div class="col-md-2 col-lg-2 col-xl-2  tablet-hide custom_padding">
+                    <!-- Search By Car  -->
+                    <div class="brand_list desktop_brand_list">
+                        <div class="sidebar_title">
+                            <img src="assets/img/car icon.png" alt="" />
+                            <span>Search by Car</span>
+                        </div>
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    <div class="brand_logo">
+                                        <img src="assets/img/brand_bmw.webp" class="img-fluid" alt="" />
+                                    </div>
+                                    BMW <span>(154)</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <div class="brand_logo">
+                                        <img src="assets/img/brand_bmw.webp" class="img-fluid" alt="" />
+                                    </div>
+                                    BMW <span>(154)</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <div class="brand_logo">
+                                        <img src="assets/img/brand_bmw.webp" class="img-fluid" alt="" />
+                                    </div>
+                                    BMW <span>(154)</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <div class="brand_logo">
+                                        <img src="assets/img/brand_toyota.png" class="img-fluid" alt="" />
+                                    </div>
+                                    TOYOTA <span>(154)</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <div class="brand_logo">
+                                        <img src="assets/img/brand_bmw.webp" class="img-fluid" alt="" />
+                                    </div>
+                                    BMW <span>(154)</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <div class="brand_logo">
+                                        <img src="assets/img/brand_bmw.webp" class="img-fluid" alt="" />
+                                    </div>
+                                    BMW <span>(154)</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <div class="brand_logo">
+                                        <img src="assets/img/brand_toyota.png" class="img-fluid" alt="" />
+                                    </div>
+                                    TOYOTA <span>(154)</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <div class="brand_logo">
+                                        <img src="assets/img/brand_bmw.webp" class="img-fluid" alt="" />
+                                    </div>
+                                    BMW <span>(154)</span>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#">
+                                    <div class="brand_logo">
+                                        <img src="assets/img/brand_bmw.webp" class="img-fluid" alt="" />
+                                    </div>
+                                    BMW <span>(154)</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <div class="brand_logo">
+                                        <img src="assets/img/brand_toyota.png" class="img-fluid" alt="" />
+                                    </div>
+                                    TOYOTA <span>(154)</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <div class="brand_logo">
+                                        <img src="assets/img/brand_toyota.png" class="img-fluid" alt="" />
+                                    </div>
+                                    TOYOTA <span>(154)</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <div class="brand_logo">
+                                        <img src="assets/img/brand_bmw.webp" class="img-fluid" alt="" />
+                                    </div>
+                                    BMW <span>(154)</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <div class="brand_logo">
+                                        <img src="assets/img/brand_toyota.png" class="img-fluid" alt="" />
+                                    </div>
+                                    TOYOTA <span>(154)</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+
+
+                    <!-- shope by popular model  -->
+                    <div class="brand_list popular-model desktop_brand_list">
+                        <div class="sidebar_title">
+                            <img src="assets/img/Vector2.png" alt="" />
+                            <span>Shop By Popular Model</span>
+                        </div>
+                        <ul>
+                            <li>
+                                <a href="#"> TOYOTA COROLLA FIELDER </a>
+                            </li>
+                            <li>
+                                <a href="#"> TOYOTA HIACE VAN </a>
+                            </li>
+                            <li>
+                                <a href="#"> TOYOTA PREMIO </a>
+                            </li>
+                            <li>
+                                <a href=""> TOYOTA RAV4 </a>
+                            </li>
+                            <li>
+                                <a href="#"> TOYOTA ALLION </a>
+                            </li>
+                            <li>
+                                <a href="#"> TOYOTA AXIO </a>
+                            </li>
+                            <li>
+                                <a href=""> HONDA CRV </a>
+                            </li>
+                            <li>
+                                <a href="#"> HONDA FIT </a>
+                            </li>
+
+                            <li>
+                                <a href="#"> HONDA INSIGHT </a>
+                            </li>
+                            <li>
+                                <a href=""> HONDA VEZEL </a>
+                            </li>
+                            <li>
+                                <a href=""> NISSAN JUKE </a>
+                            </li>
+                            <li>
+                                <a href="#"> NISSAN ELGRAND </a>
+                            </li>
+                            <li>
+                                <a href=""> MAZDA PREMACY </a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- Shop By Price  -->
+                    <div class="brand_list popular-model desktop_brand_list">
+                        <div class="sidebar_title">
+                            <img src="assets/img/Vector2.png" alt="" />
+                            <span>Shop By Popular Model</span>
+                        </div>
+                        <ul>
+                            <li>
+                                <a href="#"> Under USD 500 </a>
+                            </li>
+                            <li>
+                                <a href="#"> Under USD 500 </a>
+                            </li>
+                            <li>
+                                <a href="#"> Under USD 500 </a>
+                            </li>
+                            <li>
+                                <a href=""> Under USD 3,000 </a>
+                            </li>
+                            <li>
+                                <a href="#"> Under USD 4,000 </a>
+                            </li>
+                            <li>
+                                <a href="#"> Under USD 5,000 </a>
+                            </li>
+                            <li>
+                                <a href=""> Over USD 5,000 </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- all cars  -->
+                <div class="col-md-12 col-lg-10 col-xl-8">
+
+                    <!-- hero slider  -->
+                    <div class="slider-image">
+                        <div class="owl-carousel carousel_block">
+                            <div class="slider-item ">
+                                <img src="assets/img/Banner.png" class="img-fluid" alt="">
+                            </div>
+                            <div class="slider-item">
+                                <img src="assets/img/Banner.png" class="img-fluid" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- search form  -->
+
+                    <div class="row desktop_filter_options">
+                        <div class="col-12 search-form">
+                            <h2>Search your Stock Now</h2>
+                            <form action="">
+                                <div class="row gy-3">
+                                    <div class="col-md col-sm-3 col-lg col-6">
+                                        <label for="">Make</label>
+                                        <select class="select2 form-select">
+                                            <option value="">Please Select</option>
+                                            <option value="TOYOTA">TOYOTA</option>
+                                            <option value="NISSAN">NISSAN</option>
+                                            <option value="SUZUKI">SUZUKI</option>
+                                            <option value="HONDA">HONDA</option>
+                                            <option value="DAIHATSU">DAIHATSU</option>
+                                            <option value="MAZDA">MAZDA</option>
+                                            <option value="BMW">BMW</option>
+                                            <option value="LEXUS">LEXUS</option>
+                                            <option value="SUBARU">SUBARU</option>
+                                            <option value="MITSUBISHI">MITSUBISHI</option>
+                                            <option value="MERCEDES BENZ">MERCEDES BENZ</option>
+                                            <option value="AUDI">AUDI</option>
+                                            <option value="PEUGEOT">PEUGEOT</option>
+                                            <option value="CHRYSLER">CHRYSLER</option>
+                                        </select>
+                                    </div>
+
+                                    <div class="col-md col-sm-3 col-lg col-6">
+                                        <label for="">Model</label>
+                                        <select class="select2 form-select">
+                                            <option value="">Please Select</option>
+                                            <option value="TOYOTA">86 (23)</option>
+                                            <option value="NISSAN">ALPHARD (78)</option>
+                                            <option value="SUZUKI">ALPHARD HYBRID (67)</option>
+                                            <option value="HONDA">AQUA (56)</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-md col-sm-3 col-lg col-6">
+                                        <label for="">Model Code</label>
+                                        <select class="select2 form-select">
+                                            <option value="">Please Select</option>
+                                            <option value="TOYOTA">DWGE24</option>
+                                            <option value="NISSAN">DWGE24</option>
+                                            <option value="SUZUKI">DWGE24</option>
+                                            <option value="HONDA">DWGE24</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-md col-sm-3 col-lg col-6">
+                                        <label for="">Price (USD)</label>
+                                        <div class="container-fluid">
+                                            <div class="row">
+                                                <div class="col-6 px-1">
+                                                    <select class="select2" style="width: 90%;">
+                                                        <option value="">Min</option>
+                                                        <option value="TOYOTA">12324</option>
+                                                        <option value="NISSAN">1243545</option>
+                                                        <option value="SUZUKI">34534</option>
+                                                        <option value="HONDA">345345</option>
+                                                    </select>
+                                                </div>
+                                                <div class="col-6 px-1">
+                                                    <select class="select2" style="width: 90%;">
+                                                        <option value="">Max</option>
+                                                        <option value="TOYOTA">345345</option>
+                                                        <option value="NISSAN">345345</option>
+                                                        <option value="SUZUKI">345345</option>
+                                                        <option value="HONDA">779567</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md col-sm-3 col-lg col-6">
+                                        <label for="">Year</label>
+                                        <div class="container-fluid">
+                                            <div class="row">
+                                                <div class="col-6 px-1">
+                                                    <select class="select2" style="width: 90%;">
+                                                        <option value="">Min</option>
+                                                        <option value="TOYOTA">2013</option>
+                                                        <option value="NISSAN">2012</option>
+                                                        <option value="SUZUKI">2011</option>
+                                                        <option value="HONDA">2010</option>
+                                                    </select>
+                                                </div>
+                                                <div class="col-6 px-1">
+                                                    <select class="select2" style="width: 90%;">
+                                                        <option value="">Max</option>
+                                                        <option value="TOYOTA">2024</option>
+                                                        <option value="NISSAN">2023</option>
+                                                        <option value="SUZUKI">2022</option>
+                                                        <option value="HONDA">2021</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- SECOND ROW (hidden initially) -->
+                                <div class="row gy-3 mt-3">
+                                    <div class="col-md-2  col-lg-2 col-6">
+                                        <label for="">Engine (CC)</label>
+                                        <div class="container-fluid">
+                                            <div class="row">
+                                                <div class="col-6 px-1">
+                                                    <select class="select2" style="width: 90%;">
+                                                        <option value="">Min</option>
+                                                        <option>1990</option>
+                                                        <option>1991</option>
+                                                        <option>1992</option>
+                                                        <option>1993</option>
+                                                    </select>
+                                                </div>
+                                                <div class="col-6 px-1">
+                                                    <select class="select2" style="width: 90%;">
+                                                        <option value="">Max</option>
+                                                        <option>2001</option>
+                                                        <option>2002</option>
+                                                        <option>2003</option>
+                                                        <option>2004</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-2  col-lg-2 col-6">
+                                        <label for="">Milage</label>
+                                        <div class="container-fluid">
+                                            <div class="row">
+                                                <div class="col-6 px-1">
+                                                    <select class="select2" style="width: 90%;">
+                                                        <option value="">Min</option>
+                                                        <option>1000</option>
+                                                        <option>5000</option>
+                                                        <option>10000</option>
+                                                    </select>
+                                                </div>
+                                                <div class="col-6 px-1">
+                                                    <select class="select2" style="width: 90%;">
+                                                        <option value="">Max</option>
+                                                        <option>50000</option>
+                                                        <option>100000</option>
+                                                        <option>150000</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-2  col-lg-2 mb-3 col-6">
+                                        <label for="">Color</label>
+                                        <select class="select2 form-select">
+                                            <option value="">Please Select</option>
+                                            <option>Red</option>
+                                            <option>Blue</option>
+                                            <option>Purple</option>
+                                        </select>
+                                    </div>
+
+                                    <div class="col-md-2  col-lg-2 col-6">
+                                        <label for="">Drive</label>
+                                        <select class="select2 form-select">
+                                            <option value="">Please Select</option>
+                                            <option>Left</option>
+                                            <option>Right</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-md-2  col-lg-2 col-6">
+                                        <label for="">Grade (Package)</label>
+                                        <select class="select2 form-select">
+                                            <option value="">Please Select</option>
+                                            <option>AERAS</option>
+                                            <option>PREMIUM</option>
+                                            <option>AX</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-md-2   col-lg-2 col-6">
+                                        <label for="">Auction Grad</label>
+                                        <select class="select2" style="width: 100%;">
+                                            <option value="">Please Select</option>
+                                            <option>0</option>
+                                            <option>15</option>
+                                        </select>
+                                    </div>
+                                </div>
+
+                                <div class="row mt-4">
+                                    <div class="col-md-12 col-lg-4 d-flex align-items-center">
+                                        <input type="submit" value="Apply Filter" class="btn btn-submit form-control">
+                                        <button type="button" class="reset-filter btn btn-outline-secondary ms-2">Reset
+                                            Filter</button>
+                                    </div>
+                                    <div class="col-md-12 col-xl-8">
+                                        <ul class="dibcars-stock">
+                                            <li class="bid-cars">
+                                                <a href="">
+                                                    <strong>Bid Cars</strong> (From Japan Auction Live)
+                                                </a>
+                                            </li>
+                                            <li class="instock">
+                                                <a href="">
+                                                    In Stock 4782 Aug 29 updated
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+
+                    <!-- CHECKED Items  -->
+                    <div class="row py-4">
+                        <div class="col-12">
+                            <div class="heading_bar">
+                                <div class="text_tag">
+                                    <i class="fa-solid fa-tag"></i>
+                                    <span>Checked</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+                            <div class="car_card">
+                                <img src="assets/img/NISSANDUALIS 20S.png" class="img-fluid" alt="">
+                                <div class="car_details">
+                                    <h3>NISSAN</h3>
+                                    <h4>DUALIS 20S</h4>
+                                    <p>2008</p>
+                                    <p>kj10</p>
+                                    <h5>USD 2,352</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- HOT Offers  -->
+
+                    <div class="row pb-5">
+                        <div class="col-12">
+                            <div class="heading_bar">
+                                <div class="text_tag">
+                                    <i class="fa-solid fa-tag"></i>
+                                    <span>Hot Offers</span>
+                                </div>
+                                <a href="">Show More</a>
+                            </div>
+                        </div>
+                        <div class="row gx-3">
+                            <div class="col-lg-2 col-md-3 col-sm-4 col-6 mb-3">
+                                <a href="">
+                                    <div class="car_card">
+                                        <img src="assets/img/SUZUKICARRY TRUCK KU 3 WAY AWD 4WD.jpg" class="img-fluid"
+                                            alt="">
+                                        <div class="car_details">
+                                            <h3>SUZUKI</h3>
+                                            <h4>CARRY TRUCK KU 3 WAY AWD 4WD</h4>
+                                            <p>1998</p>
+                                            <p>DD51T</p>
+                                            <h5>USD 19,60</h5>
+
+                                            <div class="sale_badge">SALE</div>
+                                        </div>
+                                    </div>
+                                </a>
+
+                            </div>
+
+                            <div class="col-lg-2 col-md-3 col-sm-4 col-6 mb-3">
+                                <a href="">
+                                    <div class="car_card">
+                                        <img src="assets/img/SUZUKICARRY TRUCK KU 3 WAY AWD 4WD.jpg" class="img-fluid"
+                                            alt="">
+                                        <div class="car_details">
+                                            <h3>SUZUKI</h3>
+                                            <h4>CARRY TRUCK KU 3 WAY AWD 4WD</h4>
+                                            <p>1998</p>
+                                            <p>DD51T</p>
+                                            <h5>USD 19,60</h5>
+
+                                            <div class="sale_badge">SALE</div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="col-lg-2 col-md-3 col-sm-4 col-6 mb-3">
+                                <a href="">
+                                    <div class="car_card">
+                                        <img src="assets/img/SUZUKICARRY TRUCK KU 3 WAY AWD 4WD.jpg" class="img-fluid"
+                                            alt="">
+                                        <div class="car_details">
+                                            <h3>SUZUKI</h3>
+                                            <h4>CARRY TRUCK KU 3 WAY AWD 4WD</h4>
+                                            <p>1998</p>
+                                            <p>DD51T</p>
+                                            <h5>USD 19,60</h5>
+
+                                            <div class="sale_badge">SALE</div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="col-lg-2 col-md-3 col-sm-4 col-6 mb-3">
+                                <a href="">
+                                    <div class="car_card">
+                                        <img src="assets/img/SUZUKICARRY TRUCK KU 3 WAY AWD 4WD.jpg" class="img-fluid"
+                                            alt="">
+                                        <div class="car_details">
+                                            <h3>SUZUKI</h3>
+                                            <h4>CARRY TRUCK KU 3 WAY AWD 4WD</h4>
+                                            <p>1998</p>
+                                            <p>DD51T</p>
+                                            <h5>USD 19,60</h5>
+
+                                            <div class="sale_badge">SALE</div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="col-lg-2 col-md-3 col-sm-4 col-6 mb-3">
+                                <a href="">
+                                    <div class="car_card">
+                                        <img src="assets/img/SUZUKICARRY TRUCK KU 3 WAY AWD 4WD.jpg" class="img-fluid"
+                                            alt="">
+                                        <div class="car_details">
+                                            <h3>SUZUKI</h3>
+                                            <h4>CARRY TRUCK KU 3 WAY AWD 4WD</h4>
+                                            <p>1998</p>
+                                            <p>DD51T</p>
+                                            <h5>USD 19,60</h5>
+
+                                            <div class="sale_badge">SALE</div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="col-lg-2 col-md-3 col-sm-4 col-6 mb-3">
+                                <a href="">
+                                    <div class="car_card">
+                                        <img src="assets/img/SUZUKICARRY TRUCK KU 3 WAY AWD 4WD.jpg" class="img-fluid"
+                                            alt="">
+                                        <div class="car_details">
+                                            <h3>SUZUKI</h3>
+                                            <h4>CARRY TRUCK KU 3 WAY AWD 4WD</h4>
+                                            <p>1998</p>
+                                            <p>DD51T</p>
+                                            <h5>USD 19,60</h5>
+
+                                            <div class="sale_badge">SALE</div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="col-lg-2 col-md-3 col-sm-4 col-6 mb-3">
+                                <a href="">
+                                    <div class="car_card">
+                                        <img src="assets/img/SUZUKICARRY TRUCK KU 3 WAY AWD 4WD.jpg" class="img-fluid"
+                                            alt="">
+                                        <div class="car_details">
+                                            <h3>SUZUKI</h3>
+                                            <h4>CARRY TRUCK KU 3 WAY AWD 4WD</h4>
+                                            <p>1998</p>
+                                            <p>DD51T</p>
+                                            <h5>USD 19,60</h5>
+
+                                            <div class="sale_badge">SALE</div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="col-lg-2 col-md-3 col-sm-4 col-6 mb-3">
+                                <a href="">
+                                    <div class="car_card">
+                                        <img src="assets/img/SUZUKICARRY TRUCK KU 3 WAY AWD 4WD.jpg" class="img-fluid"
+                                            alt="">
+                                        <div class="car_details">
+                                            <h3>SUZUKI</h3>
+                                            <h4>CARRY TRUCK KU 3 WAY AWD 4WD</h4>
+                                            <p>1998</p>
+                                            <p>DD51T</p>
+                                            <h5>USD 19,60</h5>
+
+                                            <div class="sale_badge">SALE</div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="col-lg-2 col-md-3 col-sm-4 col-6 mb-3">
+                                <a href="">
+                                    <div class="car_card">
+                                        <img src="assets/img/SUZUKICARRY TRUCK KU 3 WAY AWD 4WD.jpg" class="img-fluid"
+                                            alt="">
+                                        <div class="car_details">
+                                            <h3>SUZUKI</h3>
+                                            <h4>CARRY TRUCK KU 3 WAY AWD 4WD</h4>
+                                            <p>1998</p>
+                                            <p>DD51T</p>
+                                            <h5>USD 19,60</h5>
+
+                                            <div class="sale_badge">SALE</div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="col-lg-2 col-md-3 col-sm-4 col-6 mb-3">
+                                <a href="">
+                                    <div class="car_card">
+                                        <img src="assets/img/SUZUKICARRY TRUCK KU 3 WAY AWD 4WD.jpg" class="img-fluid"
+                                            alt="">
+                                        <div class="car_details">
+                                            <h3>SUZUKI</h3>
+                                            <h4>CARRY TRUCK KU 3 WAY AWD 4WD</h4>
+                                            <p>1998</p>
+                                            <p>DD51T</p>
+                                            <h5>USD 19,60</h5>
+
+                                            <div class="sale_badge">SALE</div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="col-lg-2 col-md-3 col-sm-4 col-6 mb-3">
+                                <a href="">
+                                    <div class="car_card">
+                                        <img src="assets/img/SUZUKICARRY TRUCK KU 3 WAY AWD 4WD.jpg" class="img-fluid"
+                                            alt="">
+                                        <div class="car_details">
+                                            <h3>SUZUKI</h3>
+                                            <h4>CARRY TRUCK KU 3 WAY AWD 4WD</h4>
+                                            <p>1998</p>
+                                            <p>DD51T</p>
+                                            <h5>USD 19,60</h5>
+
+                                            <div class="sale_badge">SALE</div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="col-lg-2 col-md-3 col-sm-4 col-6 mb-3">
+                                <a href="">
+                                    <div class="car_card">
+                                        <img src="assets/img/SUZUKICARRY TRUCK KU 3 WAY AWD 4WD.jpg" class="img-fluid"
+                                            alt="">
+                                        <div class="car_details">
+                                            <h3>SUZUKI</h3>
+                                            <h4>CARRY TRUCK KU 3 WAY AWD 4WD</h4>
+                                            <p>1998</p>
+                                            <p>DD51T</p>
+                                            <h5>USD 19,60</h5>
+
+                                            <div class="sale_badge">SALE</div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="row pb-5">
+                        <div class="col-12">
+                            <div class="heading_bar">
+                                <div class="text_tag">
+                                    <i class="fa-solid fa-tag"></i>
+                                    <span>Hot Offers</span>
+                                </div>
+                                <a href="">Show More</a>
+                            </div>
+                        </div>
+                        <div class="row gx-3">
+                            <div class="col-lg-2 col-md-3 col-sm-4 col-6 mb-3">
+                                <a href="">
+                                    <div class="car_card">
+                                        <img src="assets/img/SUZUKICARRY TRUCK KU 3 WAY AWD 4WD.jpg" class="img-fluid"
+                                            alt="">
+                                        <div class="car_details">
+                                            <h3>SUZUKI</h3>
+                                            <h4>CARRY TRUCK KU 3 WAY AWD 4WD</h4>
+                                            <p>1998</p>
+                                            <p>DD51T</p>
+                                            <h5>USD 19,60</h5>
+
+                                            <div class="sale_badge arrival_badge">NEW</div>
+                                        </div>
+                                    </div>
+                                </a>
+
+                            </div>
+
+                            <div class="col-lg-2 col-md-3 col-sm-4 col-6 mb-3">
+                                <a href="">
+                                    <div class="car_card">
+                                        <img src="assets/img/SUZUKICARRY TRUCK KU 3 WAY AWD 4WD.jpg" class="img-fluid"
+                                            alt="">
+                                        <div class="car_details">
+                                            <h3>SUZUKI</h3>
+                                            <h4>CARRY TRUCK KU 3 WAY AWD 4WD</h4>
+                                            <p>1998</p>
+                                            <p>DD51T</p>
+                                            <h5>USD 19,60</h5>
+
+                                            <div class="sale_badge arrival_badge">NEW</div>
+                                        </div>
+                                    </div>
+                                </a>
+
+                            </div>
+                            <div class="col-lg-2 col-md-3 col-sm-4 col-6 mb-3">
+                                <a href="">
+                                    <div class="car_card">
+                                        <img src="assets/img/SUZUKICARRY TRUCK KU 3 WAY AWD 4WD.jpg" class="img-fluid"
+                                            alt="">
+                                        <div class="car_details">
+                                            <h3>SUZUKI</h3>
+                                            <h4>CARRY TRUCK KU 3 WAY AWD 4WD</h4>
+                                            <p>1998</p>
+                                            <p>DD51T</p>
+                                            <h5>USD 19,60</h5>
+
+                                            <div class="sale_badge arrival_badge">NEW</div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="col-lg-2 col-md-3 col-sm-4 col-6 mb-3">
+                                <a href="">
+                                    <div class="car_card">
+                                        <img src="assets/img/SUZUKICARRY TRUCK KU 3 WAY AWD 4WD.jpg" class="img-fluid"
+                                            alt="">
+                                        <div class="car_details">
+                                            <h3>SUZUKI</h3>
+                                            <h4>CARRY TRUCK KU 3 WAY AWD 4WD</h4>
+                                            <p>1998</p>
+                                            <p>DD51T</p>
+                                            <h5>USD 19,60</h5>
+
+                                            <div class="sale_badge arrival_badge">NEW</div>
+                                        </div>
+                                    </div>
+                                </a>
+
+                            </div>
+
+                            <div class="col-lg-2 col-md-3 col-sm-4 col-6 mb-3">
+                                <a href="">
+                                    <div class="car_card">
+                                        <img src="assets/img/SUZUKICARRY TRUCK KU 3 WAY AWD 4WD.jpg" class="img-fluid"
+                                            alt="">
+                                        <div class="car_details">
+                                            <h3>SUZUKI</h3>
+                                            <h4>CARRY TRUCK KU 3 WAY AWD 4WD</h4>
+                                            <p>1998</p>
+                                            <p>DD51T</p>
+                                            <h5>USD 19,60</h5>
+
+                                            <div class="sale_badge arrival_badge">NEW</div>
+                                        </div>
+                                    </div>
+                                </a>
+
+                            </div>
+
+                            <div class="col-lg-2 col-md-3 col-sm-4 col-6 mb-3">
+                                <a href="">
+                                    <div class="car_card">
+                                        <img src="assets/img/SUZUKICARRY TRUCK KU 3 WAY AWD 4WD.jpg" class="img-fluid"
+                                            alt="">
+                                        <div class="car_details">
+                                            <h3>SUZUKI</h3>
+                                            <h4>CARRY TRUCK KU 3 WAY AWD 4WD</h4>
+                                            <p>1998</p>
+                                            <p>DD51T</p>
+                                            <h5>USD 19,60</h5>
+
+                                            <div class="sale_badge arrival_badge">NEW</div>
+                                        </div>
+                                    </div>
+                                </a>
+
+                            </div>
+
+                            <div class="col-lg-2 col-md-3 col-sm-4 col-6 mb-3">
+                                <a href="">
+                                    <div class="car_card">
+                                        <img src="assets/img/SUZUKICARRY TRUCK KU 3 WAY AWD 4WD.jpg" class="img-fluid"
+                                            alt="">
+                                        <div class="car_details">
+                                            <h3>SUZUKI</h3>
+                                            <h4>CARRY TRUCK KU 3 WAY AWD 4WD</h4>
+                                            <p>1998</p>
+                                            <p>DD51T</p>
+                                            <h5>USD 19,60</h5>
+
+                                            <div class="sale_badge arrival_badge">NEW</div>
+                                        </div>
+                                    </div>
+                                </a>
+
+                            </div>
+
+                            <div class="col-lg-2 col-md-3 col-sm-4 col-6 mb-3">
+                                <a href="">
+                                    <div class="car_card">
+                                        <img src="assets/img/SUZUKICARRY TRUCK KU 3 WAY AWD 4WD.jpg" class="img-fluid"
+                                            alt="">
+                                        <div class="car_details">
+                                            <h3>SUZUKI</h3>
+                                            <h4>CARRY TRUCK KU 3 WAY AWD 4WD</h4>
+                                            <p>1998</p>
+                                            <p>DD51T</p>
+                                            <h5>USD 19,60</h5>
+
+                                            <div class="sale_badge arrival_badge">NEW</div>
+                                        </div>
+                                    </div>
+                                </a>
+
+                            </div>
+
+                            <div class="col-lg-2 col-md-3 col-sm-4 col-6 mb-3">
+                                <a href="">
+                                    <div class="car_card">
+                                        <img src="assets/img/SUZUKICARRY TRUCK KU 3 WAY AWD 4WD.jpg" class="img-fluid"
+                                            alt="">
+                                        <div class="car_details">
+                                            <h3>SUZUKI</h3>
+                                            <h4>CARRY TRUCK KU 3 WAY AWD 4WD</h4>
+                                            <p>1998</p>
+                                            <p>DD51T</p>
+                                            <h5>USD 19,60</h5>
+
+                                            <div class="sale_badge arrival_badge">NEW</div>
+                                        </div>
+                                    </div>
+                                </a>
+
+                            </div>
+
+                            <div class="col-lg-2 col-md-3 col-sm-4 col-6 col-6mb-3">
+                                <a href="">
+                                    <div class="car_card">
+                                        <img src="assets/img/SUZUKICARRY TRUCK KU 3 WAY AWD 4WD.jpg" class="img-fluid"
+                                            alt="">
+                                        <div class="car_details">
+                                            <h3>SUZUKI</h3>
+                                            <h4>CARRY TRUCK KU 3 WAY AWD 4WD</h4>
+                                            <p>1998</p>
+                                            <p>DD51T</p>
+                                            <h5>USD 19,60</h5>
+
+                                            <div class="sale_badge arrival_badge">NEW</div>
+                                        </div>
+                                    </div>
+                                </a>
+
+                            </div>
+
+                            <div class="col-lg-2 col-md-3 col-sm-4 col-6 mb-3">
+                                <a href="">
+                                    <div class="car_card">
+                                        <img src="assets/img/SUZUKICARRY TRUCK KU 3 WAY AWD 4WD.jpg" class="img-fluid"
+                                            alt="">
+                                        <div class="car_details">
+                                            <h3>SUZUKI</h3>
+                                            <h4>CARRY TRUCK KU 3 WAY AWD 4WD</h4>
+                                            <p>1998</p>
+                                            <p>DD51T</p>
+                                            <h5>USD 19,60</h5>
+
+                                            <div class="sale_badge arrival_badge">NEW</div>
+                                        </div>
+                                    </div>
+                                </a>
+
+                            </div>
+
+                            <div class="col-lg-2 col-md-3 col-sm-4 col-6 mb-3">
+                                <a href="">
+                                    <div class="car_card">
+                                        <img src="assets/img/SUZUKICARRY TRUCK KU 3 WAY AWD 4WD.jpg" class="img-fluid"
+                                            alt="">
+                                        <div class="car_details">
+                                            <h3>SUZUKI</h3>
+                                            <h4>CARRY TRUCK KU 3 WAY AWD 4WD</h4>
+                                            <p>1998</p>
+                                            <p>DD51T</p>
+                                            <h5>USD 19,60</h5>
+
+                                            <div class="sale_badge arrival_badge">NEW</div>
+                                        </div>
+                                    </div>
+                                </a>
+
+                            </div>
+
+                        </div>
+                    </div>
+                    <!-- Popular Request  -->
+
+                    <div class="popular_request">
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="cars_list_title">
+                                    <img src="assets/img/Vector (1).png" class="img-fluid" alt="" />
+                                    <h2>Popular Requests</h2>
+                                </div>
+
+                                <div class="items_list">
+                                    <ul>
+                                        <li>
+                                            <a href="">
+                                                <img src="assets/img/Icon.png" class="img-fluid" alt="" />
+                                                Car Above 25 years
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="">
+                                                <img src="assets/img/Icon.png" class="img-fluid" alt="" />
+                                                7 seaters
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="">
+                                                <img src="assets/img/Icon.png" class="img-fluid" alt="" />
+                                                Sedan Below 5 years
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="">
+                                                <img src="assets/img/Icon.png" class="img-fluid" alt="" />
+                                                Auction sheet Grade 4.5 or above
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="">
+                                                <img src="assets/img/Icon.png" class="img-fluid" alt="" />
+                                                Car Price Below $2,000
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="">
+                                                <img src="assets/img/Icon.png" class="img-fluid" alt="" />
+                                                Recently Inspected Car (Registered on-road)
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Popular Car Model -->
+                    <div class="popular_request popular_car_model">
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="cars_list_title">
+                                    <img src="assets/img/Vector (1).png" class="img-fluid" alt="" />
+                                    <h2>Popular Car Model</h2>
+                                </div>
+
+                                <p>
+                                    Next Drive provides to you all the stocks of used Japanese
+                                    vehicles from Japan.
+                                </p>
+
+                                <div class="items_list">
+                                    <ul>
+                                        <li>
+                                            <a href="">
+                                                <img src="assets/img/Mask group.png" class="img-fluid" alt="" />
+                                                TOYOTA COROLLA FIELDER
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="">
+                                                <img src="assets/img/Mask group.png" class="img-fluid" alt="" />
+                                                HONDA CRV
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="">
+                                                <img src="assets/img/Mask group.png" class="img-fluid" alt="" />
+                                                TOYOTA HIACE VAN
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="">
+                                                <img src="assets/img/Mask group.png" class="img-fluid" alt="" />
+                                                TOYOTA PREMIO
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="">
+                                                <img src="assets/img/Mask group.png" class="img-fluid" alt="" />
+                                                HONDA FIT
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="">
+                                                <img src="assets/img/Mask group.png" class="img-fluid" alt="" />
+                                                TOYOTA RAV4
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="">
+                                                <img src="assets/img/Mask group.png" class="img-fluid" alt="" />
+                                                TOYOTA ALLION
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="">
+                                                <img src="assets/img/Mask group.png" class="img-fluid" alt="" />
+                                                HONDA INSIGHT
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="">
+                                                <img src="assets/img/Mask group.png" class="img-fluid" alt="" />
+                                                TOYOTA AXIO
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="">
+                                                <img src="assets/img/Mask group.png" class="img-fluid" alt="" />
+                                                HONDA VEZEL
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="">
+                                                <img src="assets/img/Mask group.png" class="img-fluid" alt="" />
+                                                NISSAN JUKE
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="">
+                                                <img src="assets/img/Mask group.png" class="img-fluid" alt="" />
+                                                MAZDA PREMACY
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="">
+                                                <img src="assets/img/Mask group.png" class="img-fluid" alt="" />
+                                                NISSAN ELGRAND
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="">
+                                                <img src="assets/img/Mask group.png" class="img-fluid" alt="" />
+                                                NISSAN ELGRAND
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="">
+                                                <img src="assets/img/Mask group.png" class="img-fluid" alt="" />
+                                                Recently Inspected Car (Registered on-road)
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Popular Search By PRICE  -->
+
+                    <div class="popular_request">
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="cars_list_title">
+                                    <img src="assets/img/Vector (1).png" class="img-fluid" alt="" />
+                                    <h2>Popular Car Model</h2>
+                                </div>
+                                <div class="items_list">
+                                    <ul>
+                                        <li>
+                                            <a href="">
+                                                <img src="assets/img/Icon (1).png" class="img-fluid" alt="" />
+                                                Under USD 500
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="">
+                                                <img src="assets/img/Icon (1).png" class="img-fluid" alt="" />
+                                                Under USD 2,000
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="">
+                                                <img src="assets/img/Icon (1).png" class="img-fluid" alt="" />
+                                                Under USD 3,000
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="">
+                                                <img src="assets/img/Icon (1).png" class="img-fluid" alt="" />
+                                                Under USD 4,000
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="">
+                                                <img src="assets/img/Icon (1).png" class="img-fluid" alt="" />
+                                                Over USD 5,000
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="">
+                                                <img src="assets/img/Icon (1).png" class="img-fluid" alt="" />
+                                                Under USD 4,000
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Recent Posts  -->
+
+                    <div class="popular_request recent_post">
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="cars_list_title">
+                                    <img src="assets/img/Vector (1).png" class="img-fluid" alt="" />
+                                    <h2>Recent Posts</h2>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-4 col-sm-6">
+                                <div class="post_items">
+                                    <img src="assets/img/blog1.png" class="img-fluid w-100" alt="" />
+                                    <h3>
+                                        Top 20 Japanese Muscle Cars: Speed, Style, and Performance
+                                    </h3>
+                                    <button>See More</button>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-6">
+                                <div class="post_items">
+                                    <img src="assets/img/blog2.png" class="img-fluid w-100" alt="" />
+                                    <h3>
+                                        Top 20 Japanese Muscle Cars: Speed, Style, and Performance
+                                    </h3>
+                                    <button>See More</button>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-6">
+                                <div class="post_items">
+                                    <img src="assets/img/blog3.png" class="img-fluid w-100" alt="" />
+                                    <h3>
+                                        Top 20 Japanese Muscle Cars: Speed, Style, and Performance
+                                    </h3>
+                                    <button>See More</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ad image  -->
+                <div class="col-md-12 col-xl-2">
+                    <div class="ad_section">
+                        <div class="ad_image">
+                            <a href="">
+                                <img src="assets/img/ad image one.png" class="img-fluid w-100" alt="" />
+                            </a>
+                        </div>
+                        <div class="ad_image">
+                            <a href="">
+                                <img src="assets/img/ad image two.png" class="img-fluid w-100" alt="" />
+                            </a>
+                        </div>
+                        <div class="ad_image">
+                            <a href="">
+                                <img src="assets/img/ad aimage three.png" class="img-fluid w-100" alt="" />
+                            </a>
+                        </div>
+                        <div class="ad_image">
+                            <a href="">
+                                <img src="assets/img/ad img four.png" class="img-fluid w-100" alt="" />
+                            </a>
+                        </div>
+                        <div class="ad_image">
+                            <a href="">
+                                <img src="assets/img/ad image five.png" class="img-fluid w-100" alt="" />
+                            </a>
+                        </div>
+                        <div class="ad_image">
+                            <a href="">
+                                <img src="assets/img/ad image six.png" class="img-fluid w-100" alt="" />
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- signup and footer part -->
+
+    <div class="signup_section">
+        <div class="container">
+            <div class="row justify-content-center align-items-center">
+                <div class="col-lg-4 col-md-5">
+                    <img src="assets/img/signup.png" class="img-fluid w-100" alt="" />
+                </div>
+                <div class="col-lg-4 col-md-7 col-12">
+                    <label for="">Instant US$100 discount!</label>
+                    <form action="">
+                        <input type="email" class="form-control" placeholder="Your Email Address" />
+                        <input type="submit" class="form-control" value="Subscribe" />
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- signup and footer part -->
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-6 flex">
+                    <div class="ii">
+                        <img src="assets/img/next-drive.png" class="img-fluid" alt="" />
+
+                        <p class="first">
+                            306-7-301 NISHIZUKA HIGASHI KU, HAMAMATSU, SHIZUOKA, JAPAN
+                            435-0044
+                        </p>
+                    </div>
+                    <div class="ii">
+                        <div class="social_icon desktop_hide">
+                            <ul class="">
+                                <li>
+                                    <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                                </li>
+                                <li>
+                                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <p>TEL <a href="">+(81)50-8880-4470</a></p>
+                        <p>FAX <a href="">+(81)53-533-8238</a></p>
+                        <p>EMAIL <a href="">info@next-drive.co.jp</a></p>
+                    </div>
+                </div>
+
+                <div class="col-md-3 col-6 quick_list">
+                    <h5>About Next Drive:</h5>
+                    <ul>
+                        <li>
+                            <a href="">Company Profile</a>
+                        </li>
+                        <li>
+                            <a href="">Bank Information</a>
+                        </li>
+                        <li>
+                            <a href="">Why Next Drive?</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-md-3 col-6 quick_list">
+                    <h5>How To Buy :</h5>
+                    <ul>
+                        <li>
+                            <a href="">From Stock</a>
+                        </li>
+                        <li>
+                            <a href="">From Auction Venue</a>
+                        </li>
+                        <li>
+                            <a href="">From Yahoo! Auction</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-2 col-6 quick_list">
+                    <h5>Terms &amp; Conditions:</h5>
+                    <ul>
+                        <li>
+                            <a href="">Terms of use</a>
+                        </li>
+                        <li>
+                            <a href="">Privacy Policy</a>
+                        </li>
+                        <li>
+                            <a href="">How we use Cookies</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-md-3 col-6 offset-md-4 quick_list">
+                    <h5>Partnerships:</h5>
+                    <ul>
+                        <li>
+                            <a href="">Join our Global Partnership</a>
+                        </li>
+                        <li>
+                            <a href="">Join our Japan Partnership</a>
+                        </li>
+                        <li>
+                            <a href="">Let's Get in Touch</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-3 col-6 quick_list">
+                    <h5>Useful Links:</h5>
+                    <ul>
+                        <li>
+                            <a href="">Shipping Schedule</a>
+                        </li>
+                        <li>
+                            <a href="">Check Manufacture Year</a>
+                        </li>
+                        <li>
+                            <a href="">Exchange Rate</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-2 col-6 social_icon">
+                    <h5>SNS:</h5>
+                    <ul class="">
+                        <li>
+                            <a href=""><i class="fa-brands fa-facebook"></i></a>
+                        </li>
+                        <li>
+                            <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="copyright">
+            <div class="container">
+                <div class="row">
+                    <p>©Copyright 2025 Next Drive Co., Ltd All rights reserved</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/d2d598fe43.js" crossorigin="anonymous"></script>
+    <script src="assets/js/owl.carousel.min.js"></script>
+
+    <!-- Select2 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+    <!-- Select2 JS -->
+    <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/mixitup@3/dist/mixitup.min.js"></script>
+    <script src="assets/js/custom.js"></script>
+    <script src="assets/js/script.js"></script>
+    <script src="assets/js/acco.js"></script>
+
+</body>
+
+</html>

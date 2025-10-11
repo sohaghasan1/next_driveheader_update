@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Filter Toggle Working</title>
+  <style>
+    /* Hide the second row initially */
+    #filter-row-2 {
+      max-height: 0;
+      overflow: hidden;
+      opacity: 0;
+      transition: all 0.4s ease;
+    }
+
+    /* When .show is added, make it visible */
+    #filter-row-2.show {
+      max-height: 1500px;
+      /* large enough for all content */
+      opacity: 1;
+    }
+
+    /* Small button styling */
+    .open-filter {
+      background-color: #333;
+      color: #fff;
+      border: none;
+      padding: 10px 15px;
+      margin-left: 10px;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+
+    .btn-submit {
+      background-color: #ff6600;
+      color: #fff;
+      border: none;
+      padding: 10px 15px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    label {
+      font-weight: 600;
+      display: block;
+      margin-bottom: 4px;
+    }
+
+    select {
+      width: 100%;
+      padding: 6px;
+    }
+
+    .row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    .col-6 {
+      flex: 0 0 48%;
+    }
+
+    .col-md-3,
+    .col-lg-2 {
+      flex: 0 0 15%;
+      min-width: 150px;
+    }
+
+    .mt-3 {
+      margin-top: 1rem;
+    }
+
+    .mt-4 {
+      margin-top: 1.5rem;
+    }
+  </style>
+</head>
+
+<body>
+
+  <form action="" id="carFilterForm">
+    <div class="row gy-3" id="filter-row-1">
+      <div class="col-md-3 col-lg col-6">
+        <label>Make</label>
+        <select class="form-select">
+          <option value="">Please Select</option>
+          <option value="TOYOTA">TOYOTA</option>
+          <option value="NISSAN">NISSAN</option>
+        </select>
+      </div>
+
+      <div class="col-md-3 col-lg col-6">
+        <label>Model</label>
+        <select class="form-select">
+          <option value="">Please Select</option>
+          <option value="ALPHARD">ALPHARD</option>
+        </select>
+      </div>
+    </div>
+
+    <!-- SECOND ROW - hidden by default -->
+    <div class="row gy-3 mt-3" id="filter-row-2">
+      <div class="col-md-3 col-lg-2 col-6">
+        <label>Engine (CC)</label>
+        <select>
+          <option value="">Min</option>
+          <option>2000</option>
+        </select>
+      </div>
+      <div class="col-md-3 col-lg-2 col-6">
+        <label>Mileage</label>
+        <select>
+          <option value="">Min</option>
+          <option>10000</option>
+        </select>
+      </div>
+    </div>
+
+    <div class="row mt-4" id="filter-buttons">
+      <div class="col-md-6 d-flex">
+        <input type="submit" value="Apply Filter" class="btn-submit form-control">
+        <button type="button" class="open-filter" id="toggleFilter">Open Filter</button>
+      </div>
+    </div>
+  </form>
+
+  <script>
+    // Wait until the DOM is ready
+    document.addEventListener("DOMContentLoaded", function () {
+      const openFilterBtn = document.getElementById("toggleFilter");
+      const secondRow = document.getElementById("filter-row-2");
+
+      openFilterBtn.addEventListener("click", function (e) {
+        e.preventDefault(); // Stop any form submission or reload
+
+        // Toggle show/hide class
+        secondRow.classList.toggle("show");
+
+        // Change button text accordingly
+        if (secondRow.classList.contains("show")) {
+          openFilterBtn.textContent = "Close Filter";
+        } else {
+          openFilterBtn.textContent = "Open Filter";
+        }
+      });
+    });
+  </script>
+
+</body>
+
+</html>
