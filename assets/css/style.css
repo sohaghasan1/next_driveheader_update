@@ -1451,6 +1451,9 @@ button.navbar-toggler:focus {
 
 .search_page_pagination {
     margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .search_page_pagination ul {
@@ -1465,15 +1468,16 @@ button.navbar-toggler:focus {
 .search_page_pagination a {
     background-color: #EEEEEE;
     display: inline-block;
-    height: 30px;
-    width: 35px;
+    height: 24px;
+    width: 28px;
     text-align: center;
-    line-height: 28px;
+    line-height: 23px;
     color: #454545;
     text-decoration: none;
     font-weight: 600;
     margin: 3px;
-    border-radius: 4px;
+    border-radius: o;
+    font-size: 14px;
 }
 
 .search_page_pagination a:hover {
@@ -1492,7 +1496,7 @@ button.navbar-toggler:focus {
     font-weight: 600;
     text-align: center;
     line-height: 100%;
-    margin-top: 10px;
+    margin-top: 0;
 }
 
 .sortToggle i {
@@ -2760,6 +2764,12 @@ button.navbar-toggler:focus {
     border: none;
 }
 
+.bid-cars a:hover {
+    color: rgba(208, 33, 40, 1);
+    background-color: rgba(255, 239, 240, 1);
+    border: none;
+}
+
 .instock {
     padding: 8px 10px;
     border-radius: 4px;
@@ -2772,6 +2782,12 @@ button.navbar-toggler:focus {
     font-weight: 700;
     font-size: 16px;
     text-decoration: none;
+    border: none;
+}
+
+.instock a:hover {
+    background-color: #D7FFE6;
+    color: #008E37;
     border: none;
 }
 
@@ -3184,20 +3200,71 @@ button.navbar-toggler:focus {
     ;
 }
 
-.sorting_row {}
+.sorting_row {
+    padding: 25px 0;
+}
 
-.sorting_row h2 {}
+.sorting_row h2 {
+    color: rgba(41, 40, 38, 1);
+    font-size: 20px;
+    font-weight: 700;
+}
 
-.sorting_row label {}
+.sorting_row .sorting-field label {
+    color: rgba(203, 10, 7, 1);
+    font-size: 16px;
+    font-weight: 600;
+}
 
-.sorting_row .dropdown {}
+.sorting-field {
+    width: 270px;
+    background-color: rgba(244, 244, 244, 1);
+    padding: 6px 10px;
+    margin-left: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
 
-.sorting_row .dropdown button {}
+/* .sorting_row .sorting-field select {
+    border: none;
+    background-color: rgba(244, 244, 244, 1);
+    font-size: 16px;
+}
 
-.sorting_row .dropdown .dropdown-block {}
+.sorting_row .sorting-field select option {
+    background-color: rgba(255, 249, 249, 1);
+    padding: 24px;
 
-.sorting_row .dropdown .dropdown-block p {}
 
-.sorting_row .dropdown .dropdown-block ul {}
+} */
 
-.sorting_row .dropdown .dropdown-block ul li {}
+.sort-select {
+    border: none;
+    background-color: rgba(244, 244, 244, 1);
+    font-size: 16px;
+}
+
+/* Style dropdown options (limited support) */
+.sort-select option {
+    background-color: #FFF9F9;
+    color: #555;
+    font-size: 16px;
+    padding: 10px;
+}
+
+/* Highlighted/hovered option */
+.sort-select option:checked,
+.sort-select option:hover {
+    background-color: #FFF9F9;
+    color: #000;
+    font-weight: 600;
+}
+
+.sort-select:focus {
+    outline: none;
+}
+
+.car_list:hover h3 {
+    color: rgba(203, 10, 7, 1);
+}

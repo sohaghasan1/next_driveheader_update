@@ -33,65 +33,20 @@
     .ad_section {
         display: flex;
         gap: 10px;
+        margin-top: 20px;
     }
+
 }
 
 @media(max-width: 991px) {
+
+
     .headring_title h4 {
         font-size: 16px;
     }
 
-    .left_sidebar ul {
-        display: flex;
-        flex-wrap: wrap;
-        align-items: start;
-        margin: 15px 0;
-        justify-content: start;
-    }
-
-    .left_sidebar ul li a {
-        display: block;
-        text-align: center;
-        color: #000;
-        font-size: 14px;
-    }
-
-    .left_sidebar .brand_logo {
-        width: 40px;
-        margin: auto;
-    }
-
-    .left_sidebar ul li {
-        width: 8%;
-    }
-
-    .left_sidebar ul {
-        display: flex;
-        flex-wrap: wrap;
-        align-items: start;
-        list-style: none;
-    }
-
-    .desktop_hide {
-        display: inherit;
-    }
-
-    .left_sidebar .desktop_hide {
-        display: block;
-        padding: 0;
-    }
-
-    .left_sidebar ul li a {
-        font-size: 12px;
-        color: black;
-    }
-
-    .left_sidebar ul li {
-        margin: 10px;
-    }
-
-    .left_sidebar .brand_logo {
-        margin-right: 5px;
+    .bid-cars {
+        padding-left: 0px;
     }
 
     .heading {
@@ -122,8 +77,8 @@
     }
 
     .dibcars-stock {
-        justify-content: start;
-        margin-top: 10px;
+        justify-content: end;
+        /* margin-top: 10px; */
         padding: 0;
     }
 
@@ -227,7 +182,7 @@
     }
 
     .search-form form {
-        background-color: rgb(255, 240, 240);
+        background-color: #FFF9F9;
         border: 1px solid rgb(184, 184, 184);
         border-radius: 2px;
         padding: 15px 15px;
@@ -472,13 +427,133 @@
     }
 }
 
+@media(max-width: 820px) {
+    .btn-submit {
+        margin-right: 0;
+    }
+
+    .sidebar_title {
+        flex-wrap: wrap;
+    }
+
+    .sidebar_title img {
+        display: block;
+    }
+
+    .bid-cars {
+        padding: 0;
+        margin-top: 10px;
+    }
+
+    .instock {
+        padding: 0;
+        margin-left: 4px;
+        margin-top: 10px;
+    }
+
+    .bid-cars a,
+    .instock a {
+        padding: 8px;
+    }
+}
+
 @media(max-width: 600px) {
+    .left_sidebar ul {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: start;
+        margin: 15px 0;
+        justify-content: start;
+    }
+
+    .left_sidebar ul li a {
+        display: block;
+        text-align: center;
+        color: #000;
+        font-size: 14px;
+    }
+
+    .left_sidebar .brand_logo {
+        width: 40px;
+        margin: auto;
+    }
+
+    .left_sidebar ul li {
+        width: 8%;
+    }
+
+    .left_sidebar ul {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: start;
+        list-style: none;
+    }
+
+    .left_sidebar .desktop_hide {
+        display: block;
+        padding: 0;
+    }
+
+    .left_sidebar ul li a {
+        font-size: 12px;
+        color: black;
+    }
+
+    .left_sidebar ul li {
+        margin: 10px;
+    }
+
+    .left_sidebar .brand_logo {
+        margin-right: 5px;
+    }
+
+    /* -------------- */
+    .car_list button {
+        font-size: 12px;
+        padding: 8px 10px;
+    }
+
+    .sort-select option {
+        font-size: 14px;
+    }
+
+    .sorting_row h2 {
+        font-size: 16px;
+    }
+
+    .sorting-field {
+        width: 240px;
+        margin-left: 0;
+        margin-top: 10px;
+    }
+
+    .sorting_row .sorting-field label {
+        font-size: 14px;
+    }
+
+    .sort-select {
+        font-size: 14px;
+    }
+
+    .search-by-make-btn {
+        padding: 8px 10px;
+    }
+
+    .headring_title h4 {
+        font-size: 14px;
+    }
+
+    .car_icon {
+        font-size: 14px;
+    }
+
     .ad_section {
         display: block !important;
     }
 
     .moile-search-block {
         display: flex !important;
+        margin-top: 10px;
     }
 
     .left_sidebar ul li {
@@ -704,7 +779,7 @@
 
     .modal-dialog {
         width: 90%;
-        margin: 80px auto 50px;
+        margin: 30px auto 0;
     }
 
     .asking_price .modal-body {

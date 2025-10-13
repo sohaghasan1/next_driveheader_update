@@ -435,7 +435,6 @@
                 <!-- mobile brand list start -->
                 <div class="col-12 left_sidebar">
                     <div class="desktop_hide">
-
                         <div class="heading search-by-make-btn navbar-toggler" data-bs-toggle="collapse"
                             data-bs-target="#searchbymake" aria-controls="navbarSupportedContent" aria-expanded="true"
                             aria-label="Toggle navigation">
@@ -760,7 +759,7 @@
 
                     <div class="row desktop_filter_options">
                         <div class="col-12 search-form">
-                            <h2>Search your Stock Now</h2>
+                            <!-- <h2>Search your Stock Now</h2> -->
                             <form action="">
                                 <div class="row gy-3">
                                     <div class="col-md col-sm-3 col-lg col-6">
@@ -946,12 +945,12 @@
                                 </div>
 
                                 <div class="row mt-4">
-                                    <div class="col-md-12 col-lg-4 d-flex align-items-center">
+                                    <div class="col-sm-4 col-lg-4 d-flex align-items-center">
                                         <input type="submit" value="Apply Filter" class="btn btn-submit form-control">
                                         <button type="button" class="reset-filter btn btn-outline-secondary ms-2">Reset
                                             Filter</button>
                                     </div>
-                                    <div class="col-md-12 col-xl-8">
+                                    <div class="col-sm-8 col-xl-8">
                                         <ul class="dibcars-stock">
                                             <li class="bid-cars">
                                                 <a href="">
@@ -971,27 +970,25 @@
                     </div>
 
                     <!-- sorting row  -->
-                    <div class="row sorting_row">
-                        <div class="col-sm-6">
+                    <div class="row sorting_row align-items-center">
+                        <div class=" col-sm-6">
                             <h2>Used vehicles for sale (4132)</h2>
                         </div>
-                        <label for="sort">Sort By</label>
-                        <div class="dropdown">
-                            <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown"
-                                aria-expanded="false">
-                                USD
-                            </button>
-                            <div class="dropdown-block dropdown-menu dropdown-menu-dark">
-                                <p>Sort By</p>
-                                <ul class="">
-                                    <li><a class="dropdown-item active" href="#">JPY</a></li>
-                                    <li><a class="dropdown-item" href="#">USD</a></li>
-                                    <li><a class="dropdown-item" href="#">GBP</a></li>
-                                    <li><a class="dropdown-item" href="#">BDT</a></li>
-                                    <li><a class="dropdown-item" href="#">AUD</a></li>
-                                    <li><a class="dropdown-item" href="#">CAD</a></li>
-                                    <li><a class="dropdown-item" href="#">TZS</a></li>
-                                </ul>
+
+                        <div class="col-sm-6">
+                            <div class="sorting-field">
+                                <label for="sort">Sort By</label>
+                                <select id="sort" class="sort-select">
+                                    <option value="new-old" selected>Arrivals New to Old</option>
+                                    <option value="old-new">Arrivals Old to New</option>
+                                    <option value="price-high-low">Price High to Low</option>
+                                    <option value="price-low-high">Price Low to High</option>
+                                    <option value="year-new-old">Year New to Old</option>
+                                    <option value="mileage-min-max">Mileage Min to Max</option>
+                                    <option value="mileage-max-min">Mileage Max to Min</option>
+                                    <option value="engine-min-max">Engine (cc) Min to Max</option>
+                                    <option value="engine-max-min">Engine (cc) Max to Min</option>
+                                </select>
                             </div>
 
                         </div>
@@ -999,14 +996,99 @@
                     </div>
 
                     <div class="row g-3">
-                        <div class="col-md-3">
+                        <div class="col-sm-4 col-6">
                             <div class="car_list">
-                                <img src="assets/img/NISSANDUALIS 20S.png" class="img-fluid" alt="">
-                                <h3>MITSUBISHI MINICAB TRUCK 1998 WHITE</h3>
+                                <a href="">
+                                    <img src="assets/img/NISSANDUALIS 20S.png" class="img-fluid" alt="">
+                                </a>
+                                <a href="">
+                                    <h3>MITSUBISHI MINICAB TRUCK 1998 WHITE</h3>
+                                </a>
                                 <span>U42T 3.5</span>
                                 <p>79107km</p>
                                 <p class="car-price">Price: USD 1,159</p>
-                                <button>Ask for the Best Price</button>
+                                <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Ask for the
+                                    Best Price</button>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-4 col-6">
+                            <div class="car_list">
+                                <a href="">
+                                    <img src="assets/img/NISSANDUALIS 20S.png" class="img-fluid" alt="">
+                                </a>
+                                <a href="">
+                                    <h3>MITSUBISHI MINICAB TRUCK 1998 WHITE</h3>
+                                </a>
+                                <span>U42T 3.5</span>
+                                <p>79107km</p>
+                                <p class="car-price">Price: USD 1,159</p>
+                                <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Ask for the
+                                    Best Price</button>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-4 col-6">
+                            <div class="car_list">
+                                <a href="">
+                                    <img src="assets/img/NISSANDUALIS 20S.png" class="img-fluid" alt="">
+                                </a>
+                                <a href="">
+                                    <h3>MITSUBISHI MINICAB TRUCK 1998 WHITE</h3>
+                                </a>
+                                <span>U42T 3.5</span>
+                                <p>79107km</p>
+                                <p class="car-price">Price: USD 1,159</p>
+                                <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Ask for the
+                                    Best Price</button>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-4 col-6">
+                            <div class="car_list">
+                                <a href="">
+                                    <img src="assets/img/NISSANDUALIS 20S.png" class="img-fluid" alt="">
+                                </a>
+                                <a href="">
+                                    <h3>MITSUBISHI MINICAB TRUCK 1998 WHITE</h3>
+                                </a>
+                                <span>U42T 3.5</span>
+                                <p>79107km</p>
+                                <p class="car-price">Price: USD 1,159</p>
+                                <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Ask for the
+                                    Best Price</button>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-4 col-6">
+                            <div class="car_list">
+                                <a href="">
+                                    <img src="assets/img/NISSANDUALIS 20S.png" class="img-fluid" alt="">
+                                </a>
+                                <a href="">
+                                    <h3>MITSUBISHI MINICAB TRUCK 1998 WHITE</h3>
+                                </a>
+                                <span>U42T 3.5</span>
+                                <p>79107km</p>
+                                <p class="car-price">Price: USD 1,159</p>
+                                <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Ask for the
+                                    Best Price</button>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-4 col-6">
+                            <div class="car_list">
+                                <a href="">
+                                    <img src="assets/img/NISSANDUALIS 20S.png" class="img-fluid" alt="">
+                                </a>
+                                <a href="">
+                                    <h3>MITSUBISHI MINICAB TRUCK 1998 WHITE</h3>
+                                </a>
+                                <span>U42T 3.5</span>
+                                <p>79107km</p>
+                                <p class="car-price">Price: USD 1,159</p>
+                                <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Ask for the
+                                    Best Price</button>
                             </div>
                         </div>
 
@@ -1014,6 +1096,7 @@
 
                         <!-- paginations  -->
                         <div class="search_page_pagination">
+                            <p>Cars Per Page:&nbsp; <b>32</b> of 2255</p>
                             <ul>
                                 <li>
                                     <a href="" class="active">1</a>
@@ -1031,7 +1114,6 @@
                                     <a href="">5</a>
                                 </li>
                             </ul>
-                            <p>Cars Per Page:&nbsp;32 of 2255</p>
                         </div>
                         <!-- paginations  -->
 
@@ -1154,6 +1236,11 @@
                 <!-- ad image  -->
                 <div class="col-md-12 col-xl-2 mobile_none">
                     <div class="ad_section">
+                        <div class="ad_image laptop-hide">
+                            <a href="">
+                                <img src="assets/img/whatsapp.png" class="img-fluid w-100" alt="" />
+                            </a>
+                        </div>
                         <div class="ad_image">
                             <a href="">
                                 <img src="assets/img/ad image one.png" class="img-fluid w-100" alt="" />
@@ -1350,7 +1437,26 @@
     <script src="assets/js/custom.js"></script>
     <script src="assets/js/script.js"></script>
     <script src="assets/js/acco.js"></script>
+    <script>
+        const select = document.querySelector(".custom-select");
+        const selected = select.querySelector(".select-selected");
+        const items = select.querySelector(".select-items");
 
+        selected.addEventListener("click", () => {
+            items.style.display = items.style.display === "block" ? "none" : "block";
+        });
+
+        items.querySelectorAll("div").forEach(option => {
+            option.addEventListener("click", () => {
+                selected.innerHTML = option.innerHTML + ' <span class="select-arrow">▼</span>';
+                items.style.display = "none";
+            });
+        });
+
+        window.addEventListener("click", e => {
+            if (!select.contains(e.target)) items.style.display = "none";
+        });
+    </script>
 </body>
 
 </html>
